@@ -28,6 +28,7 @@ body {
 
 .nav-container-img {
   height: 80px;
+  width: 72px;
   z-index: inherit;
 }
 
@@ -1063,7 +1064,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  top: 400px;
+  top: 700px;
   bottom: 0;
 }
 

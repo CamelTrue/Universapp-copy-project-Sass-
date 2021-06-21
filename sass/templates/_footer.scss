@@ -1,0 +1,114 @@
+// Inizio Footer
+
+.box-end-page {
+    display: flex;
+    position: relative;
+    top: 700px;
+    bottom: 0;
+
+    .contacts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        width: 50%;
+        height: 350px;
+        background-color: #33FFD9;
+
+        .box-contacts {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 250px;
+            width: 600px;
+
+            #title {
+                color: #4003CA;
+                font-size: 24px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+
+            .images-count {
+                margin-top: 25px;
+                margin-bottom: 15px;
+
+                img {
+                    height: 40px;
+                    width: 40px;
+                }
+
+                #facebook {
+                    margin-right: 100px;
+                }
+
+                #instagram {
+                    margin-right: 100px;
+                }
+            }
+
+            #email-type {
+                color: #4003CA;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            #email {
+                color: #4003CA;
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+
+            .policy {
+                margin-top: 15px;
+                color: #4003CA;
+                font-size: 15px;
+                letter-spacing: 1px;
+
+                .spacing {
+                    padding: 8px;
+                }
+
+                a {
+                    text-decoration: none;
+
+                    span {
+                        color: #4003CA;
+                    }
+                }
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0;
+        width: 50%;
+        height: 350px;
+        background-color: #4003CA;
+
+        .box-content {
+            position: relative;
+            height: 200px;
+            width: 520px;
+            color: #33FFD9;
+            font-size: 24px;
+            font-weight: 900;
+
+            a {
+
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+
+// Fine Footer
