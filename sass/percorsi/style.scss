@@ -431,11 +431,55 @@ body {
             0 0 151px #000000; 
 
         span {
-        margin-left: 15%;
-        color: #33ffd9;
-        font-weight: 900;
-        font-size: 48px;
-        letter-spacing: 1px;
+            margin-left: 15%;
+            color: #33ffd9;
+            font-weight: 900;
+            font-size: 48px;
+            letter-spacing: 1px;
+        }
+
+        #btn-link {
+            height: 60px;
+            width: 200px;
+
+            button {
+                position: relative;
+                bottom: 15px;
+                height: 60px;
+                width: 200px;
+                margin-left: 50px;
+                border-radius: 0;
+                border: 0;
+                background-color: #33FFD9;
+                cursor: pointer;
+    
+                span {
+                    position: absolute;
+                    top: 21px;
+                    right: 50px;
+                    font-size: 20px;
+                    font-family: "Press Start 2P", cursive;
+                    color: #000;
+                }
+
+                img {
+                    position: absolute;
+                    right: 10px;
+                    top: 22px;
+                }
+            }
+
+            button:hover {
+                text-shadow: 
+                    0 0 7px #33ffd9,
+                    0 0 10px #17d1b2,
+                    0 0 21px #14ba9f,
+                    0 0 42px #119c85,
+                    0 0 82px #0d806d,
+                    0 0 92px #0a6959,
+                    0 0 102px #074a3f,
+                    0 0 151px #000000;
+            }
         }
     }
 
@@ -453,17 +497,19 @@ body {
         margin-top: 40px;
         margin-left: 15.5%;
 
+
+        // CSS & SASS
         a {
             text-decoration: none;
-            width: 270px;
-            height: 180px;
+            height: 170px;
+            width: 260px;
             margin-right: 20px;
 
             #card-css-advanced {
                 display: flex;
                 position: relative;
-                height: 180px;
-                width: 270px;
+                height: 170px;
+                width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
 
@@ -488,6 +534,7 @@ body {
                         font-weight: 500;
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
+                        z-index: 3;
                     }
                 }
     
@@ -495,34 +542,36 @@ body {
                     position: absolute;
                     opacity: 0.7;
                     left: -40px;
-                    top: 105px;
+                    top: 95px;
                 }
     
                 .sass {
                     position: absolute;
                     left: 30px;
-                    top: 105px;
+                    top: 95px;
                 }
 
                 .flex-icon {
                     position: absolute;
-                    top: 125px;
+                    top: 120px;
                     right: 30px;
                     color: #fff;
                 }
             }
         }
     
+
+        // Javascript
         a {
             text-decoration: none;
-            width: 270px;
-            height: 180px;
+            height: 170px;
+            width: 260px;
             margin-right: 20px;
 
             #card-javascript {
                 position: relative;
-                height: 180px;
-                width: 270px;
+                height: 170px;
+                width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
 
@@ -547,6 +596,7 @@ body {
                         font-weight: 500;
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
+                        z-index: 3;
                     }
                 }
     
@@ -554,28 +604,30 @@ body {
                     position: absolute;
                     opacity: 0.6;
                     left: 30px;
-                    top: 105px;
+                    top: 95px;
                 }
 
                 .flex-icon {
                     position: absolute;
-                    top: 125px;
+                    top: 120px;
                     right: 30px;
                     color: #fff;
                 }
             }
         }
     
+
+        // React
         a {
             text-decoration: none;
-            width: 270px;
-            height: 180px;
+            height: 170px;
+            width: 260px;
             margin-right: 20px;
 
             #card-react {
                 position: relative;
-                height: 180px;
-                width: 270px;
+                height: 170px;
+                width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
 
@@ -600,6 +652,7 @@ body {
                         font-weight: 500;
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
+                        z-index: 3;
                     }
                 }
     
@@ -607,27 +660,29 @@ body {
                     position: absolute;
                     opacity: 0.6;
                     left: 30px;
-                    top: 105px;
+                    top: 95px;
                 }
 
                 .flex-icon {
                     position: absolute;
-                    top: 125px;
+                    top: 120px;
                     right: 30px;
                     color: #fff;
                 }
             }
         }
     
+
+        // React Native
         a {
             text-decoration: none;
-            height: 180px;
-            width: 270px;
+            height: 170px;
+            width: 260px;
 
             #card-react-native {
                 position: relative;
-                height: 180px;
-                width: 270px;
+                height: 170px;
+                width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
 
@@ -652,6 +707,7 @@ body {
                         font-weight: 500;
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
+                        z-index: 3;
                     }
                 }
     
@@ -659,12 +715,67 @@ body {
                     position: absolute;
                     opacity: 0.6;
                     left: 30px;
-                    top: 105px;
+                    top: 95px;
                 }
 
                 .flex-icon {
                     position: absolute;
-                    top: 125px;
+                    top: 120px;
+                    right: 30px;
+                    color: #fff;
+                }
+            }
+        }
+
+
+        // Python
+        a {
+            text-decoration: none;
+            height: 170px;
+            width: 260px;
+
+            #card-python {
+                position: relative;
+                height: 170px;
+                width: 260px;
+                background-color: #4d4d4d;
+                border-radius: 20px;
+
+                .entry-card {
+                    display: flex;
+                    flex-direction: column;
+
+                    .title {
+                        position: absolute;
+                        letter-spacing: 1px;
+                        top: 20px;
+                        left: 50px;
+                        color: #F7DF1E;
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+    
+                    .content {
+                        position: absolute;
+                        left: 10px;
+                        top: 40px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        color: rgba(0, 0, 0, 0.6);
+                        z-index: 3;
+                    }
+                }
+    
+                .python {
+                    position: absolute;
+                    opacity: 0.6;
+                    left: 30px;
+                    top: 65px;
+                }
+
+                .flex-icon {
+                    position: absolute;
+                    top: 120px;
                     right: 30px;
                     color: #fff;
                 }
@@ -701,11 +812,55 @@ body {
             0 0 151px #000000; 
 
         span {
-        margin-left: 15%;
-        color: #4a07e3;
-        font-weight: 900;
-        font-size: 48px;
-        letter-spacing: 1px;
+            margin-left: 15%;
+            color: #4a07e3;
+            font-weight: 900;
+            font-size: 48px;
+            letter-spacing: 1px;
+        }
+
+        #btn-link {
+            height: 60px;
+            width: 200px;
+
+            button {
+                position: relative;
+                bottom: 15px;
+                height: 60px;
+                width: 200px;
+                margin-left: 50px;
+                border-radius: 0;
+                border: 0;
+                background-color: #4003CA;
+                cursor: pointer;
+    
+                span {
+                    position: absolute;
+                    top: 21px;
+                    right: 50px;
+                    font-size: 20px;
+                    font-family: "Press Start 2P", cursive;
+                    color: #000;
+                }
+
+                img {
+                    position: absolute;
+                    right: 10px;
+                    top: 22px;
+                }
+            }
+
+            button:hover {
+                text-shadow: 
+                    0 0 7px #4003CA,
+                    0 0 10px #3d09b3,
+                    0 0 21px #3708a1,
+                    0 0 42px #30088a,
+                    0 0 82px #240666,
+                    0 0 92px #1d0552,
+                    0 0 102px #120333,
+                    0 0 151px #000000;
+            }
         }
     }
 

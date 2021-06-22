@@ -267,7 +267,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  top: 700px;
+  top: 400px;
   bottom: 0;
 }
 
@@ -389,5 +389,9 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.box-end-page {
+  margin-top: -200px;
 }
 /*# sourceMappingURL=style.css.map */

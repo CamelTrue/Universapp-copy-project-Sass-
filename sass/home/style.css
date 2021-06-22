@@ -534,7 +534,7 @@ body {
 }
 
 .section-container-present .container-top .title {
-  text-shadow: 0 0 7px #ff0076, 0 0 10px #bf0b5f, 0 0 21px #a10b51, 0 0 42px #870944, 0 0 82px #6e0837, 0 0 92px #4d0627, 0 0 102px #2e0317, 0 0 151px #000000;
+  text-shadow: 0 0 7px #ff0076, 0 0 10px #bf0b5f, 0 0 21px #a10b51, 0 0 42px #870944, 0 0 82px #6e0837, 0 0 92px #4d0627, 0 0 102px #2e0317, 0 0 151px #000000;
 }
 
 .section-container-present .container-top .rule {
@@ -598,7 +598,7 @@ body {
 
 .section-container-index .container-top .title {
   font-size: 56px;
-  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
 }
 
 .section-container-index .container-top .rule {
@@ -1111,7 +1111,7 @@ body {
 }
 
 .section-cli .container-header .box-title-left span {
-  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
 }
 
 .section-cli .container-hero {
@@ -1189,7 +1189,7 @@ body {
   color: #ff8400;
   font-size: 45px;
   font-weight: bold;
-  text-shadow: 0 0 7px #ff8400, 0 0 10px #c45d14, 0 0 21px #ab5213, 0 0 42px #854010, 0 0 82px #6b320b, 0 0 92px #4d2307, 0 0 102px #301604, 0 0 151px #000000;
+  text-shadow: 0 0 7px #ff8400, 0 0 10px #c45d14, 0 0 21px #ab5213, 0 0 42px #854010, 0 0 82px #6b320b, 0 0 92px #4d2307, 0 0 102px #301604, 0 0 151px #000000;
 }
 
 .title-container .container-hero {
@@ -2060,7 +2060,7 @@ body {
 }
 
 .path .box-title .path-title span {
-  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
 }
 
 .path .gif-animation {
@@ -2151,7 +2151,7 @@ body {
 }
 
 .path-pro .box-title .path-title span {
-  text-shadow: 0 0 7px #ff0076, 0 0 10px #bf0b5f, 0 0 21px #a10b51, 0 0 42px #870944, 0 0 82px #6e0837, 0 0 92px #4d0627, 0 0 102px #2e0317, 0 0 151px #000000;
+  text-shadow: 0 0 7px #ff0076, 0 0 10px #bf0b5f, 0 0 21px #a10b51, 0 0 42px #870944, 0 0 82px #6e0837, 0 0 92px #4d0627, 0 0 102px #2e0317, 0 0 151px #000000;
 }
 
 .path-pro .gif-animation {
@@ -2307,7 +2307,7 @@ body {
   font-size: 64px;
   font-weight: 800;
   color: #FF8401;
-  text-shadow: 0 0 7px #ff8400, 0 0 10px #c45d14, 0 0 21px #ab5213, 0 0 42px #854010, 0 0 82px #6b320b, 0 0 92px #4d2307, 0 0 102px #301604, 0 0 151px #000000;
+  text-shadow: 0 0 7px #ff8400, 0 0 10px #c45d14, 0 0 21px #ab5213, 0 0 42px #854010, 0 0 82px #6b320b, 0 0 92px #4d2307, 0 0 102px #301604, 0 0 151px #000000;
 }
 
 .container-faq .first-row {
@@ -2397,7 +2397,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  top: 700px;
+  top: 400px;
   bottom: 0;
 }
 
@@ -2519,5 +2519,9 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.box-end-page {
+  margin-top: 250px;
 }
 /*# sourceMappingURL=style.css.map */
