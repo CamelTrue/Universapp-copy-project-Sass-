@@ -11,9 +11,19 @@ body {
 
 
 
+// Variables
+
+@import "../templates/variables";
+
+
+
 // Inizio Navbar
 
 @import "../templates/navbar";
+
+.element-nav {
+    z-index: 4;
+}
 
 // Fine Navbar
 
@@ -24,18 +34,17 @@ body {
     position: relative;
     width: 100%;
     height: 630px;
-    z-index: 1;
+    z-index: 0;
 
     .header-boxing {
         margin-left: 15%;
     
         .element-ring-max {
             position: absolute;
-            left: 1250px;
+            left: 1100px;
             z-index: 3;
             margin-top: 100px;
-            
-            filter: blur(4px);
+            opacity: 0.6;
         
             .ring-top {
                 display: flex;
@@ -44,7 +53,6 @@ body {
                 height: 500px;
                 width: 500px;
                 background-color: #60f4d9;
-                // #60f4d9
                 border-radius: 50%;
                 background-image: linear-gradient(to bottom, #60f4d9 50%, #000 100%);
             
@@ -55,7 +63,6 @@ body {
                     height: 375px;
                     width: 375px;
                     background-color: #df7f97;
-                    // #df7f97
                     border-radius: 50%;
                     background-image: linear-gradient(to bottom, #df7f97 50%, #60f4d9 100%);
                     
@@ -66,7 +73,6 @@ body {
                         height: 250px;
                         width: 250px;
                         background-color: #f0539d;
-                        // #f0539d
                         border-radius: 50%;
                         background-image: linear-gradient(to bottom, #f0539d, #df7f97 50%);
         
@@ -74,7 +80,6 @@ body {
                             height: 125px;
                             width: 125px;
                             background-color: #6ef4de;
-                            // #6ef4de
                             border-radius: 50%;
                             background-image: linear-gradient(to bottom, #6ef4de, #df7f97 96%);
                         } 
@@ -85,11 +90,10 @@ body {
 
         .element-ring-min {
             position: absolute;
-            left: 1150px;
+            left: 1000px;
             z-index: 3;
-            margin-top: 260px;
-            opacity: 0.8;
-            filter: blur(2px);
+            margin-top: 260px; 
+            opacity: 0.9; 
         
             .ring-top {
                 display: flex;
@@ -166,7 +170,7 @@ body {
                 position: absolute;
                 margin-bottom: 330px;
                 margin-left: -30px;
-                z-index: 1;
+                z-index: 0;
                 
                 .display-border-two {
                     position: relative;
@@ -293,7 +297,7 @@ body {
                     width: 230px;
 
                     .ring-marine {
-                        background-color: #33ffd9;
+                        background-color: $marine-color;
                         height: 25px;
                         width: 25px;
                         border-radius: 50%;
@@ -301,7 +305,7 @@ body {
                     }
 
                     .ring-violet {
-                        background-color: #8d33ff;
+                        background-color: $violet-color;
                         height: 25px;
                         width: 25px;
                         border-radius: 50%;
@@ -319,7 +323,7 @@ body {
                     width: 230px;
 
                     .ring-violet {
-                        background-color: #8d33ff;
+                        background-color: $violet-color;
                         height: 25px;
                         width: 25px;
                         border-radius: 50%;
@@ -345,7 +349,7 @@ body {
                     width: 230px;
 
                     .ring-marine {
-                        background-color: #33ffd9;
+                        background-color: $marine-color;
                         height: 25px;
                         width: 25px;
                         border-radius: 50%;
@@ -353,7 +357,7 @@ body {
                     }
 
                     .ring-violet {
-                        background-color: #8d33ff;
+                        background-color: $violet-color;
                         height: 25px;
                         width: 25px;
                         border-radius: 50%;
@@ -382,7 +386,7 @@ body {
         &-top {
             display: flex;
             align-items: center;
-            color: #ff0076;
+            color: $pink-color;
             font-size: 70px;
 
             .title {
@@ -402,7 +406,7 @@ body {
                 width: 85%;
                 border-radius: 8px;
                 margin-left: 100px;
-                background-color: #ff0076;
+                background-color: $pink-color;
                 animation-name: line;
             }
         }
@@ -419,7 +423,7 @@ body {
                 margin-left: 30px;
                 
                 .title-name {
-                    color: #ff0076;
+                    color: $pink-color;
                     font-size: 70px;
                 }
     
@@ -450,7 +454,7 @@ body {
         &-top {
             display: flex;
             align-items: center;
-            color: #33ffd9;
+            color: $marine-color;
 
             .title {
                 font-size: 56px;
@@ -470,7 +474,7 @@ body {
                 width: 81%;
                 border-radius: 8px;
                 margin-left: 100px;
-                background-color: #33ffd9;
+                background-color: $marine-color;
             }
         }
 
@@ -492,7 +496,7 @@ body {
     
                     .none-dec {
                         text-decoration: none;
-                        color: #33ffd9;
+                        color: $marine-color;;
                         display: block;
                         margin-top: 50px;
                         font-size: 48px;
@@ -574,7 +578,7 @@ body {
     
                     .none-dec {
                         text-decoration: none;
-                        color: #33ffd9;
+                        color: $marine-color;
                         display: block;
                         margin-top: 50px;
                         font-size: 48px;
@@ -664,7 +668,7 @@ body {
     
                     .none-dec {
                         text-decoration: none;
-                        color: #33ffd9;
+                        color: $marine-color;
                         display: block;
                         margin-top: 50px;
                         font-size: 48px;
@@ -745,7 +749,7 @@ body {
     
                     .none-dec {
                         text-decoration: none;
-                        color: #33ffd9;
+                        color: $marine-color;
                         display: block;
                         margin-top: 50px;
                         font-size: 48px;
@@ -826,7 +830,7 @@ body {
     
                     .none-dec {
                         text-decoration: none;
-                        color: #33ffd9;
+                        color: $marine-color;
                         display: block;
                         margin-top: 50px;
                         font-size: 48px;
@@ -911,10 +915,10 @@ body {
         display: flex;
         align-items: center;
         width: 100%;
-        border-bottom: 1px solid #33ffd9;
+        border-bottom: 1px solid $marine-color;
 
         .box-title-left {
-            color: #33ffd9;
+            color: $marine-color;
             font-size: 45px;
             margin-left: 6px;
             font-weight: bold;
@@ -1015,7 +1019,7 @@ body {
     .container-header {
         position: relative;
         width: 100%;
-        border-bottom: 1px solid #ff8400;
+        border-bottom: 1px solid $orange-color;
 
         .box-title {
             display: flex;
@@ -1024,7 +1028,7 @@ body {
             margin-left: 15%;
 
             span {
-                color: #ff8400;
+                color: $orange-color;
                 font-size: 45px;
                 font-weight: bold;
                 text-shadow:

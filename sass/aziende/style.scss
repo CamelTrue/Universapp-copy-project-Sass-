@@ -11,9 +11,19 @@ body {
 
 
 
+// Variables
+
+@import "../templates/variables";
+
+
+
 // Inizio Navbar
 
 @import "../templates/navbar";
+
+.element-nav {
+    z-index: 4;
+}
 
 // Fine Navbar
 

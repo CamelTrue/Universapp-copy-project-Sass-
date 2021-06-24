@@ -23,7 +23,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 15%;
-  z-index: 2;
+  z-index: 4;
 }
 
 .nav-container-img {
@@ -71,6 +71,14 @@ body {
   margin-top: 5px;
 }
 
+#element-yellow {
+  width: 120px;
+  height: 4px;
+  background-color: #ff9300;
+  text-align: center;
+  margin-top: 5px;
+}
+
 #element-orange {
   width: 120px;
   height: 4px;
@@ -91,6 +99,10 @@ body {
   height: 4px;
   background-color: #33ffd9;
   margin-top: 5px;
+}
+
+.element-nav {
+  z-index: 4;
 }
 
 .custom-container {

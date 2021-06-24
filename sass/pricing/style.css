@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+  margin-left: 17%;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15%;
+  z-index: 4;
+}
+
+.nav-container-img {
+  height: 80px;
+  width: 72px;
+  z-index: inherit;
+}
+
+.nav-container-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: 2px;
+}
+
+.nav-container-element .element-attachment-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.nav-container-element .element-attachment-nav .element {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-container-element .element-nav {
+  margin-left: 50px;
+  text-align: center;
+}
+
+.nav-container-element .element-nav .element {
+  text-decoration: none;
+  color: #fff;
+}
+
+#element-pink {
+  width: 120px;
+  height: 4px;
+  background-color: #ff0076;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#element-yellow {
+  width: 120px;
+  height: 4px;
+  background-color: #ff9300;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#element-orange {
+  width: 120px;
+  height: 4px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF8400), to(#FF0076));
+  background-image: linear-gradient(to right, #FF8400 0, #FF0076 100%);
+  margin-top: 5px;
+}
+
+#element-blue {
+  width: 80px;
+  height: 4px;
+  background-color: #4003ca;
+  margin-top: 5px;
+}
+
+#element-marine {
+  width: 80px;
+  height: 4px;
+  background-color: #33ffd9;
+  margin-top: 5px;
+}
+
+.element-nav {
+  z-index: 4;
+}
+
+.box-end-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 400px;
+  bottom: 0;
+}
+
+.box-end-page .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 350px;
+  background-color: #33FFD9;
+}
+
+.box-end-page .contacts .box-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 250px;
+  width: 600px;
+}
+
+.box-end-page .contacts .box-contacts #title {
+  color: #4003CA;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.box-end-page .contacts .box-contacts .images-count {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.box-end-page .contacts .box-contacts .images-count img {
+  height: 40px;
+  width: 40px;
+}
+
+.box-end-page .contacts .box-contacts .images-count #facebook {
+  margin-right: 100px;
+}
+
+.box-end-page .contacts .box-contacts .images-count #instagram {
+  margin-right: 100px;
+}
+
+.box-end-page .contacts .box-contacts #email-type {
+  color: #4003CA;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box-end-page .contacts .box-contacts #email {
+  color: #4003CA;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.box-end-page .contacts .box-contacts .policy {
+  margin-top: 15px;
+  color: #4003CA;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.box-end-page .contacts .box-contacts .policy .spacing {
+  padding: 8px;
+}
+
+.box-end-page .contacts .box-contacts .policy a {
+  text-decoration: none;
+}
+
+.box-end-page .contacts .box-contacts .policy a span {
+  color: #4003CA;
+}
+
+.box-end-page .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 350px;
+  background-color: #4003CA;
+}
+
+.box-end-page .content .box-content {
+  position: relative;
+  height: 200px;
+  width: 520px;
+  color: #33FFD9;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.box-end-page .content .box-content a img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */

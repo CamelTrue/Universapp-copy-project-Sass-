@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 15%;
-    z-index: 2;
+    z-index: 4;
 
     &-img {
         height: 80px;
@@ -50,6 +50,15 @@
     text-align: center;
     margin-top: 5px;
     // #ff0076
+}
+
+#element-yellow {
+    width: 120px;
+    height: 4px;
+    background-color: #ff9300;
+    text-align: center;
+    margin-top: 5px;
+    // #ff9300
 }
 
 #element-orange {

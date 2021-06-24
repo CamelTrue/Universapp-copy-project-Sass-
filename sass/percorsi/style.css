@@ -23,7 +23,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 15%;
-  z-index: 2;
+  z-index: 4;
 }
 
 .nav-container-img {
@@ -71,6 +71,14 @@ body {
   margin-top: 5px;
 }
 
+#element-yellow {
+  width: 120px;
+  height: 4px;
+  background-color: #ff9300;
+  text-align: center;
+  margin-top: 5px;
+}
+
 #element-orange {
   width: 120px;
   height: 4px;
@@ -91,6 +99,10 @@ body {
   height: 4px;
   background-color: #33ffd9;
   margin-top: 5px;
+}
+
+.element-nav {
+  z-index: 4;
 }
 
 .custom-container {
@@ -572,10 +584,12 @@ body {
   height: 60px;
   width: 200px;
   margin-left: 50px;
-  border-radius: 0;
+  border-radius: 10px;
   border: 0;
   background-color: #33FFD9;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 #single-course .main-title #btn-link button span {
@@ -595,6 +609,7 @@ body {
 
 #single-course .main-title #btn-link button:hover {
   text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+  border-radius: 50px;
 }
 
 #single-course .content {
@@ -949,10 +964,12 @@ body {
   height: 60px;
   width: 200px;
   margin-left: 50px;
-  border-radius: 0;
+  border-radius: 10px;
   border: 0;
   background-color: #4003CA;
   cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 #free-course .main-title #btn-link button span {
@@ -972,6 +989,7 @@ body {
 
 #free-course .main-title #btn-link button:hover {
   text-shadow: 0 0 7px #4003CA, 0 0 10px #3d09b3, 0 0 21px #3708a1, 0 0 42px #30088a, 0 0 82px #240666, 0 0 92px #1d0552, 0 0 102px #120333, 0 0 151px #000000;
+  border-radius: 50px;
 }
 
 #free-course .content {

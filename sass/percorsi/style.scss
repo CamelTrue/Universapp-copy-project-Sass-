@@ -11,9 +11,19 @@ body {
 
 
 
+// Variables
+
+@import "../templates/variables";
+
+
+
 // Inizio Navbar
 
 @import "../templates/navbar";
+
+.element-nav {
+    z-index: 4;
+}
 
 // Fine Navbar
 
@@ -448,10 +458,11 @@ body {
                 height: 60px;
                 width: 200px;
                 margin-left: 50px;
-                border-radius: 0;
+                border-radius: 10px;
                 border: 0;
                 background-color: #33FFD9;
                 cursor: pointer;
+                transition: 0.2s;
     
                 span {
                     position: absolute;
@@ -479,6 +490,8 @@ body {
                     0 0 92px #0a6959,
                     0 0 102px #074a3f,
                     0 0 151px #000000;
+                
+                border-radius: 50px;
             }
         }
     }
@@ -829,10 +842,11 @@ body {
                 height: 60px;
                 width: 200px;
                 margin-left: 50px;
-                border-radius: 0;
+                border-radius: 10px;
                 border: 0;
                 background-color: #4003CA;
                 cursor: pointer;
+                transition: 0.2s;
     
                 span {
                     position: absolute;
@@ -860,6 +874,8 @@ body {
                     0 0 92px #1d0552,
                     0 0 102px #120333,
                     0 0 151px #000000;
+
+                    border-radius: 50px;
             }
         }
     }

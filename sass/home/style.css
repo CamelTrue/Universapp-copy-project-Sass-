@@ -23,7 +23,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 15%;
-  z-index: 2;
+  z-index: 4;
 }
 
 .nav-container-img {
@@ -71,6 +71,14 @@ body {
   margin-top: 5px;
 }
 
+#element-yellow {
+  width: 120px;
+  height: 4px;
+  background-color: #ff9300;
+  text-align: center;
+  margin-top: 5px;
+}
+
 #element-orange {
   width: 120px;
   height: 4px;
@@ -93,11 +101,15 @@ body {
   margin-top: 5px;
 }
 
+.element-nav {
+  z-index: 4;
+}
+
 .custom-container {
   position: relative;
   width: 100%;
   height: 630px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .custom-container .header-boxing {
@@ -106,11 +118,10 @@ body {
 
 .custom-container .header-boxing .element-ring-max {
   position: absolute;
-  left: 1250px;
+  left: 1100px;
   z-index: 3;
   margin-top: 100px;
-  -webkit-filter: blur(4px);
-          filter: blur(4px);
+  opacity: 0.6;
 }
 
 .custom-container .header-boxing .element-ring-max .ring-top {
@@ -178,12 +189,10 @@ body {
 
 .custom-container .header-boxing .element-ring-min {
   position: absolute;
-  left: 1150px;
+  left: 1000px;
   z-index: 3;
   margin-top: 260px;
-  opacity: 0.8;
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
+  opacity: 0.9;
 }
 
 .custom-container .header-boxing .element-ring-min .ring-top {
@@ -292,7 +301,7 @@ body {
   position: absolute;
   margin-bottom: 330px;
   margin-left: -30px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .custom-container .header-boxing .box-left .grid-area-box .display-border-two {
