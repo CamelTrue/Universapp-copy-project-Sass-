@@ -599,6 +599,8 @@ body {
   font-size: 20px;
   font-family: "Press Start 2P", cursive;
   color: #000;
+  -webkit-transition: 0s;
+  transition: 0s;
 }
 
 #single-course .main-title #btn-link button img {
@@ -608,8 +610,19 @@ body {
 }
 
 #single-course .main-title #btn-link button:hover {
-  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+  background-color: #000;
   border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+#single-course .main-title #btn-link button:hover span {
+  position: absolute;
+  left: 6px;
+  color: #fff;
+}
+
+#single-course .main-title #btn-link button:hover img {
+  display: none;
 }
 
 #single-course .content {
@@ -657,7 +670,7 @@ body {
           flex-direction: column;
 }
 
-#single-course .flex-container a #card-css-advanced .entry-card .title {
+#single-course .flex-container a #card-css-advanced .entry-card .title-css {
   position: absolute;
   letter-spacing: 1px;
   top: 20px;
@@ -665,6 +678,8 @@ body {
   color: #33A9DC;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-css-advanced .entry-card .content {
@@ -697,6 +712,10 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a:hover .title-css {
+  text-shadow: 0 0 7px #33A9DC, 0 0 10px #2e94bf, 0 0 21px #25789c, 0 0 42px #1b5670, 0 0 82px #143f52, 0 0 92px #0e2d3b, 0 0 102px #081b24, 0 0 151px #000000;
+}
+
 #single-course .flex-container a {
   text-decoration: none;
   height: 170px;
@@ -722,7 +741,7 @@ body {
           flex-direction: column;
 }
 
-#single-course .flex-container a #card-javascript .entry-card .title {
+#single-course .flex-container a #card-javascript .entry-card .title-js {
   position: absolute;
   letter-spacing: 1px;
   top: 20px;
@@ -730,6 +749,8 @@ body {
   color: #F7DF1E;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-javascript .entry-card .content {
@@ -754,6 +775,10 @@ body {
   top: 120px;
   right: 30px;
   color: #fff;
+}
+
+#single-course .flex-container a:hover .title-js {
+  text-shadow: 0 0 7px #F7DF1E, 0 0 10px #d6c21c, 0 0 21px #b5a418, 0 0 42px #948615, 0 0 82px #706610, 0 0 92px #47410a, 0 0 102px #302c08, 0 0 151px #000000;
 }
 
 #single-course .flex-container a {
@@ -781,7 +806,7 @@ body {
           flex-direction: column;
 }
 
-#single-course .flex-container a #card-react .entry-card .title {
+#single-course .flex-container a #card-react .entry-card .title-react {
   position: absolute;
   letter-spacing: 1px;
   top: 20px;
@@ -789,6 +814,8 @@ body {
   color: #00D8FF;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-react .entry-card .content {
@@ -815,6 +842,10 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a:hover .title-react {
+  text-shadow: 0 0 7px #00D8FF, 0 0 10px #00bee0, 0 0 21px #00a0bd, 0 0 42px #00869e, 0 0 82px #006c80, 0 0 92px #005463, 0 0 102px #003f4a, 0 0 151px #000000;
+}
+
 #single-course .flex-container a {
   text-decoration: none;
   height: 170px;
@@ -839,7 +870,7 @@ body {
           flex-direction: column;
 }
 
-#single-course .flex-container a #card-react-native .entry-card .title {
+#single-course .flex-container a #card-react-native .entry-card .title-react-native {
   position: absolute;
   letter-spacing: 1px;
   top: 20px;
@@ -847,6 +878,8 @@ body {
   color: #4003CA;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-react-native .entry-card .content {
@@ -873,6 +906,10 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a:hover .title-react-native {
+  text-shadow: 0 0 7px #4003CA, 0 0 10px #320696, 0 0 21px #290775, 0 0 42px #1d0554, 0 0 82px #15043d, 0 0 92px #0e0329, 0 0 102px #080217, 0 0 151px #000000;
+}
+
 #single-course .flex-container a {
   text-decoration: none;
   height: 170px;
@@ -897,7 +934,7 @@ body {
           flex-direction: column;
 }
 
-#single-course .flex-container a #card-python .entry-card .title {
+#single-course .flex-container a #card-python .entry-card .title-py {
   position: absolute;
   letter-spacing: 1px;
   top: 20px;
@@ -905,6 +942,8 @@ body {
   color: #F7DF1E;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-python .entry-card .content {
@@ -929,6 +968,10 @@ body {
   top: 120px;
   right: 30px;
   color: #fff;
+}
+
+#single-course .flex-container a:hover .title-py {
+  text-shadow: 0 0 7px #F7DF1E, 0 0 10px #d6c21c, 0 0 21px #b5a418, 0 0 42px #948615, 0 0 82px #706610, 0 0 92px #47410a, 0 0 102px #302c08, 0 0 151px #000000;
 }
 
 #free-course {
@@ -979,6 +1022,8 @@ body {
   font-size: 20px;
   font-family: "Press Start 2P", cursive;
   color: #000;
+  -webkit-transition: 0s;
+  transition: 0s;
 }
 
 #free-course .main-title #btn-link button img {
@@ -988,8 +1033,19 @@ body {
 }
 
 #free-course .main-title #btn-link button:hover {
-  text-shadow: 0 0 7px #4003CA, 0 0 10px #3d09b3, 0 0 21px #3708a1, 0 0 42px #30088a, 0 0 82px #240666, 0 0 92px #1d0552, 0 0 102px #120333, 0 0 151px #000000;
+  background-color: #000;
   border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+#free-course .main-title #btn-link button:hover span {
+  position: absolute;
+  left: 6px;
+  color: #fff;
+}
+
+#free-course .main-title #btn-link button:hover img {
+  display: none;
 }
 
 #free-course .content {
