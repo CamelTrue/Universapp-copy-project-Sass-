@@ -345,12 +345,20 @@ body {
   border: 0;
   border-radius: 10px;
   background-color: #4003ca;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #prices-cards .container-center #first-left-card button span {
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card button:hover {
+  border: 1px solid #fff;
+  background-color: #17161e;
+  border-radius: 30px;
 }
 
 #prices-cards .container-center #second-center-card {
@@ -603,12 +611,20 @@ body {
   border: 0;
   border-radius: 10px;
   background-color: #4003ca;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #prices-cards .container-center #second-center-card button span {
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card button:hover {
+  border: 1px solid #fff;
+  background-color: #17161e;
+  border-radius: 30px;
 }
 
 #prices-cards .container-center #third-right-card {
@@ -825,12 +841,20 @@ body {
   border: 0;
   border-radius: 10px;
   background-color: #4003ca;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #prices-cards .container-center #third-right-card button span {
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+#prices-cards .container-center #third-right-card button:hover {
+  border: 1px solid #fff;
+  background-color: #17161e;
+  border-radius: 30px;
 }
 
 .box-end-page {
