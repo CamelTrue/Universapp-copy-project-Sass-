@@ -10,6 +10,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#coin-img-sx img {
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+
 .nav-container {
   margin-left: 17%;
   margin-top: 25px;
@@ -658,6 +664,8 @@ body {
   width: 260px;
   background-color: #4d4d4d;
   border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-css-advanced .entry-card {
@@ -690,6 +698,8 @@ body {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
   z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-css-advanced .css3 {
@@ -712,8 +722,17 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a #card-css-advanced:hover {
+  border: 1px solid #fff;
+  background-color: #000;
+}
+
 #single-course .flex-container a:hover .title-css {
   text-shadow: 0 0 7px #33A9DC, 0 0 10px #2e94bf, 0 0 21px #25789c, 0 0 42px #1b5670, 0 0 82px #143f52, 0 0 92px #0e2d3b, 0 0 102px #081b24, 0 0 151px #000000;
+}
+
+#single-course .flex-container a:hover #card-css-advanced .entry-card .content {
+  color: #898a87;
 }
 
 #single-course .flex-container a {
@@ -729,6 +748,8 @@ body {
   width: 260px;
   background-color: #4d4d4d;
   border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-javascript .entry-card {
@@ -761,6 +782,8 @@ body {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
   z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-javascript .javascript {
@@ -777,8 +800,17 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a #card-javascript:hover {
+  border: 1px solid #fff;
+  background-color: #000;
+}
+
 #single-course .flex-container a:hover .title-js {
   text-shadow: 0 0 7px #F7DF1E, 0 0 10px #d6c21c, 0 0 21px #b5a418, 0 0 42px #948615, 0 0 82px #706610, 0 0 92px #47410a, 0 0 102px #302c08, 0 0 151px #000000;
+}
+
+#single-course .flex-container a:hover #card-javascript .entry-card .content {
+  color: #898a87;
 }
 
 #single-course .flex-container a {
@@ -786,6 +818,8 @@ body {
   height: 170px;
   width: 260px;
   margin-right: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-react {
@@ -826,6 +860,8 @@ body {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
   z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-react .react {
@@ -842,8 +878,17 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a #card-react:hover {
+  border: 1px solid #fff;
+  background-color: #000;
+}
+
 #single-course .flex-container a:hover .title-react {
   text-shadow: 0 0 7px #00D8FF, 0 0 10px #00bee0, 0 0 21px #00a0bd, 0 0 42px #00869e, 0 0 82px #006c80, 0 0 92px #005463, 0 0 102px #003f4a, 0 0 151px #000000;
+}
+
+#single-course .flex-container a:hover #card-react .entry-card .content {
+  color: #898a87;
 }
 
 #single-course .flex-container a {
@@ -858,6 +903,8 @@ body {
   width: 260px;
   background-color: #4d4d4d;
   border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-react-native .entry-card {
@@ -890,6 +937,8 @@ body {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
   z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-react-native .react-native {
@@ -906,8 +955,17 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a #card-react-native:hover {
+  border: 1px solid #fff;
+  background-color: #000;
+}
+
 #single-course .flex-container a:hover .title-react-native {
   text-shadow: 0 0 7px #4003CA, 0 0 10px #320696, 0 0 21px #290775, 0 0 42px #1d0554, 0 0 82px #15043d, 0 0 92px #0e0329, 0 0 102px #080217, 0 0 151px #000000;
+}
+
+#single-course .flex-container a:hover #card-react-native .entry-card .content {
+  color: #898a87;
 }
 
 #single-course .flex-container a {
@@ -922,6 +980,8 @@ body {
   width: 260px;
   background-color: #4d4d4d;
   border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-python .entry-card {
@@ -954,6 +1014,8 @@ body {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
   z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #single-course .flex-container a #card-python .python {
@@ -970,8 +1032,17 @@ body {
   color: #fff;
 }
 
+#single-course .flex-container a #card-python:hover {
+  border: 1px solid #fff;
+  background-color: #000;
+}
+
 #single-course .flex-container a:hover .title-py {
   text-shadow: 0 0 7px #F7DF1E, 0 0 10px #d6c21c, 0 0 21px #b5a418, 0 0 42px #948615, 0 0 82px #706610, 0 0 92px #47410a, 0 0 102px #302c08, 0 0 151px #000000;
+}
+
+#single-course .flex-container a:hover #card-python .entry-card .content {
+  color: #898a87;
 }
 
 #free-course {

@@ -10,6 +10,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#coin-img-sx img {
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+
 .nav-container {
   margin-left: 17%;
   margin-top: 25px;

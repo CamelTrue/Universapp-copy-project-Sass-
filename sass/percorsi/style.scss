@@ -10,6 +10,15 @@ body {
 }
 
 
+#coin-img-sx {
+    
+    img {
+        position: absolute;
+        top: 0;
+        left: -20px
+    }
+}
+
 
 // Variables
 
@@ -528,6 +537,7 @@ body {
                 width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
+                transition: 0.3s;
 
                 .entry-card {
                     display: flex;
@@ -552,6 +562,7 @@ body {
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
                         z-index: 3;
+                        transition: 0.3s;
                     }
                 }
     
@@ -575,6 +586,11 @@ body {
                     color: #fff;
                 }
             }
+
+            #card-css-advanced:hover {
+                border: 1px solid #fff;
+                background-color: #000;
+            }
         }
 
         a:hover .title-css {
@@ -587,6 +603,10 @@ body {
                 0 0 92px #0e2d3b,
                 0 0 102px #081b24,
                 0 0 151px #000000;
+        }
+
+        a:hover #card-css-advanced .entry-card .content {
+            color: #898a87;
         }
     
 
@@ -603,6 +623,7 @@ body {
                 width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
+                transition: 0.3s;
 
                 .entry-card {
                     display: flex;
@@ -627,6 +648,7 @@ body {
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
                         z-index: 3;
+                        transition: 0.3s;
                     }
                 }
     
@@ -644,6 +666,11 @@ body {
                     color: #fff;
                 }
             }
+
+            #card-javascript:hover {
+                border: 1px solid #fff;
+                background-color: #000;
+            }
         }
 
         a:hover .title-js {
@@ -657,6 +684,10 @@ body {
                 0 0 102px #302c08,
                 0 0 151px #000000;
         }
+
+        a:hover #card-javascript .entry-card .content {
+            color: #898a87;
+        }
     
 
         // React
@@ -665,6 +696,7 @@ body {
             height: 170px;
             width: 260px;
             margin-right: 20px;
+            transition: 0.3s;
 
             #card-react {
                 position: relative;
@@ -696,6 +728,7 @@ body {
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
                         z-index: 3;
+                        transition: 0.3s;
                     }
                 }
     
@@ -713,6 +746,11 @@ body {
                     color: #fff;
                 }
             }
+
+            #card-react:hover {
+                border: 1px solid #fff;
+                background-color: #000;
+            }
         }
 
         a:hover .title-react {
@@ -725,6 +763,10 @@ body {
                 0 0 92px #005463,
                 0 0 102px #003f4a,
                 0 0 151px #000000;
+        }
+
+        a:hover #card-react .entry-card .content {
+            color: #898a87;
         }
     
 
@@ -740,6 +782,7 @@ body {
                 width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
+                transition: 0.3s;
 
                 .entry-card {
                     display: flex;
@@ -764,6 +807,7 @@ body {
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
                         z-index: 3;
+                        transition: 0.3s;
                     }
                 }
     
@@ -781,6 +825,11 @@ body {
                     color: #fff;
                 }
             }
+
+            #card-react-native:hover {
+                border: 1px solid #fff;
+                background-color: #000;
+            }
         }
 
         a:hover .title-react-native {
@@ -793,6 +842,10 @@ body {
                 0 0 92px #0e0329,
                 0 0 102px #080217,
                 0 0 151px #000000;
+        }
+
+        a:hover #card-react-native .entry-card .content {
+            color: #898a87;
         }
 
 
@@ -808,6 +861,7 @@ body {
                 width: 260px;
                 background-color: #4d4d4d;
                 border-radius: 20px;
+                transition: 0.3s;
 
                 .entry-card {
                     display: flex;
@@ -832,6 +886,7 @@ body {
                         font-size: 12px;
                         color: rgba(0, 0, 0, 0.6);
                         z-index: 3;
+                        transition: 0.3s;
                     }
                 }
     
@@ -849,6 +904,11 @@ body {
                     color: #fff;
                 }
             }
+
+            #card-python:hover {
+                border: 1px solid #fff;
+                background-color: #000;
+            }
         }
 
         a:hover .title-py {
@@ -861,6 +921,10 @@ body {
                 0 0 92px #47410a,
                 0 0 102px #302c08,
                 0 0 151px #000000;
+        }
+
+        a:hover #card-python .entry-card .content {
+            color: #898a87;
         }
     }
 }
