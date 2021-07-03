@@ -111,6 +111,311 @@ body {
   z-index: 2;
 }
 
+#box-center-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+#box-center-title .title {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 550px;
+  height: 100px;
+  border-radius: 60px;
+  background-color: #333333;
+  font-family: "Press Start 2P", cursive;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#box-center-title .title span {
+  color: #fff;
+  font-size: 25px;
+}
+
+#box-center-title .title:hover {
+  -webkit-box-shadow: 0 0 40px 10px rgba(207, 192, 243, 0.2);
+          box-shadow: 0 0 40px 10px rgba(207, 192, 243, 0.2);
+  background-color: #000;
+  border: 1px solid #cfc0f3;
+}
+
+#prices-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 59px;
+}
+
+#prices-cards .container-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1380px;
+  height: 800px;
+}
+
+#prices-cards .container-center #first-left-card {
+  position: relative;
+  background-color: #17161e;
+  width: 400px;
+  height: 600px;
+  border-radius: 40px;
+  margin-right: 40px;
+  -webkit-box-shadow: -5px 1px 31px #4003ca;
+          box-shadow: -5px 1px 31px #4003ca;
+  overflow: hidden;
+}
+
+#prices-cards .container-center #first-left-card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  background-color: #4003ca;
+}
+
+#prices-cards .container-center #first-left-card .top .content-top-title-left {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card .title-price {
+  position: relative;
+  top: 28px;
+  margin-left: 115px;
+}
+
+#prices-cards .container-center #first-left-card .title-price p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card .title-price p span {
+  font-weight: bold;
+}
+
+#prices-cards .container-center #first-left-card .content {
+  position: absolute;
+  top: 265px;
+  left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#prices-cards .container-center #first-left-card .content .primary-shot {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  background-color: #4003ca;
+  margin-right: 7px;
+}
+
+#prices-cards .container-center #first-left-card .content .text-first-shot {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card #approve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 140px;
+  left: 40px;
+}
+
+#prices-cards .container-center #first-left-card #approve .first-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+#prices-cards .container-center #first-left-card #approve .first-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card #approve .second-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+#prices-cards .container-center #first-left-card #approve .second-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card #approve .third-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+#prices-cards .container-center #first-left-card #approve .third-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card #approve .fourth-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#prices-cards .container-center #first-left-card #approve .fourth-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #first-left-card button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  height: 50px;
+  width: 240px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #4003ca;
+}
+
+#prices-cards .container-center #first-left-card button span {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card {
+  background-color: #17161e;
+  width: 500px;
+  height: 800px;
+  border-radius: 40px;
+  margin-right: 40px;
+  -webkit-box-shadow: -5px 1px 31px #33ffd9;
+          box-shadow: -5px 1px 31px #33ffd9;
+  overflow: hidden;
+}
+
+#prices-cards .container-center #second-center-card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 140px;
+  background-color: #33ffd9;
+}
+
+#prices-cards .container-center #second-center-card .top .content-top-title-center {
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #third-right-card {
+  background-color: #17161e;
+  width: 400px;
+  height: 600px;
+  border-radius: 40px;
+  -webkit-box-shadow: -5px 1px 31px #ff0076;
+          box-shadow: -5px 1px 31px #ff0076;
+  overflow: hidden;
+}
+
+#prices-cards .container-center #third-right-card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  background-color: #ff0076;
+}
+
+#prices-cards .container-center #third-right-card .top .content-top-title-right {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 .box-end-page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,5 +543,9 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.box-end-page {
+  top: 150px;
 }
 /*# sourceMappingURL=style.css.map */
