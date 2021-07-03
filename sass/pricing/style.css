@@ -275,7 +275,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 #prices-cards .container-center #first-left-card #approve .first-line p {
@@ -292,7 +292,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 #prices-cards .container-center #first-left-card #approve .second-line p {
@@ -309,7 +309,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 #prices-cards .container-center #first-left-card #approve .third-line p {
@@ -354,6 +354,7 @@ body {
 }
 
 #prices-cards .container-center #second-center-card {
+  position: relative;
   background-color: #17161e;
   width: 500px;
   height: 800px;
@@ -385,7 +386,233 @@ body {
   letter-spacing: 1px;
 }
 
+#prices-cards .container-center #second-center-card .switch-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+}
+
+#prices-cards .container-center #second-center-card .switch-price #first-coin {
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+#prices-cards .container-center #second-center-card .switch-price #second-coin {
+  color: #fff;
+  text-decoration: line-through;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price .box-price-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  width: 140px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price .box-price-left span {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price .box-price-left:hover {
+  background-color: rgba(51, 255, 217, 0.4);
+  cursor: pointer;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price .vertical-line {
+  height: 80px;
+  border-left: 1px solid #fff;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price .box-price-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  width: 140px;
+  background-color: #33ffd9;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price .box-price-right span {
+  color: #000;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+#prices-cards .container-center #second-center-card .container-change-price .box-price-right:hover {
+  background-color: rgba(51, 255, 217, 0.4);
+  cursor: pointer;
+}
+
+#prices-cards .container-center #second-center-card #approve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+#prices-cards .container-center #second-center-card #approve .first-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+#prices-cards .container-center #second-center-card #approve .first-line p {
+  font-size: 21px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card #approve .first-line #pink-text {
+  margin-left: 6px;
+  font-size: 21px;
+  color: #ff0076;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card #approve .first-line #plus {
+  color: #fff;
+}
+
+#prices-cards .container-center #second-center-card #approve .second-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+#prices-cards .container-center #second-center-card #approve .second-line p {
+  font-size: 21px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card #approve .third-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+#prices-cards .container-center #second-center-card #approve .third-line p {
+  font-size: 21px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card #approve .fourth-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+#prices-cards .container-center #second-center-card #approve .fourth-line p {
+  font-size: 21px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card #approve .fifth-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#prices-cards .container-center #second-center-card #approve .fifth-line p {
+  font-size: 21px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #second-center-card button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 60px;
+  left: 130px;
+  height: 50px;
+  width: 240px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #4003ca;
+}
+
+#prices-cards .container-center #second-center-card button span {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
 #prices-cards .container-center #third-right-card {
+  position: relative;
   background-color: #17161e;
   width: 400px;
   height: 600px;
@@ -413,6 +640,196 @@ body {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #third-right-card .switch-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+}
+
+#prices-cards .container-center #third-right-card .switch-price #first-coin {
+  color: #fff;
+  font-size: 31px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price .box-price-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 120px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price .box-price-left span {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price .box-price-left:hover {
+  background-color: rgba(255, 0, 118, 0.4);
+  cursor: pointer;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price .vertical-line {
+  height: 60px;
+  border-left: 1px solid #fff;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price .box-price-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 120px;
+  background-color: #ff0076;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price .box-price-right span {
+  color: #000;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+#prices-cards .container-center #third-right-card .container-change-price .box-price-right:hover {
+  background-color: rgba(255, 0, 118, 0.4);
+  cursor: pointer;
+}
+
+#prices-cards .container-center #third-right-card #approve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+#prices-cards .container-center #third-right-card #approve .first-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+#prices-cards .container-center #third-right-card #approve .first-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #third-right-card #approve .second-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+#prices-cards .container-center #third-right-card #approve .second-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #third-right-card #approve .third-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+#prices-cards .container-center #third-right-card #approve .third-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #third-right-card #approve .fourth-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#prices-cards .container-center #third-right-card #approve .fourth-line p {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+#prices-cards .container-center #third-right-card button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  height: 50px;
+  width: 240px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #4003ca;
+}
+
+#prices-cards .container-center #third-right-card button span {
+  color: #fff;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 

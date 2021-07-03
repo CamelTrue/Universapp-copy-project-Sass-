@@ -88,6 +88,7 @@ body {
         width: 1380px;
         height: 800px;
 
+        // Blue card
         #first-left-card {
             position: relative;
             background-color: #17161e;
@@ -164,7 +165,7 @@ body {
                 .first-line {
                     display: flex;
                     align-items: center;
-                    margin-bottom: 15px;
+                    margin-bottom: 20px;
 
                     p {
                         font-size: 18px;
@@ -177,7 +178,7 @@ body {
                 .second-line {
                     display: flex;
                     align-items: center;
-                    margin-bottom: 15px;
+                    margin-bottom: 20px;
 
                     p {
                         font-size: 18px;
@@ -190,7 +191,7 @@ body {
                 .third-line {
                     display: flex;
                     align-items: center;
-                    margin-bottom: 15px;
+                    margin-bottom: 20px;
 
                     p {
                         font-size: 18px;
@@ -232,7 +233,9 @@ body {
             }
         }
 
+        // Marine card
         #second-center-card {
+            position: relative;
             background-color: #17161e;
             width: 500px;
             height: 800px;
@@ -255,9 +258,190 @@ body {
                     letter-spacing: 1px;
                 }
             }
+
+            .switch-price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 35px;
+
+                #first-coin {
+                    color: #fff;
+                    font-size: 48px;
+                    font-weight: bold;
+                    margin-right: 12px;
+                }
+
+                #second-coin {
+                    color: #fff;
+                    text-decoration: line-through;
+                    font-size: 24px;
+                    font-weight: 100;
+                }
+            }
+
+            .container-change-price {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 30px;
+
+                .box-price-left {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 80px;
+                    width: 140px;
+                    border-radius: 20px;
+                    margin-right: 10px;
+                    
+                    span {
+                        color: #fff;
+                        font-size: 21px;
+                        font-weight: 400;
+                    }
+                }
+
+                .box-price-left:hover {
+                    background-color: rgba(51, 255, 217, 0.4);
+                    cursor: pointer;
+                }
+
+                .vertical-line {
+                    height: 80px;
+                    border-left: 1px solid #fff;
+                }
+
+                .box-price-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 80px;
+                    width: 140px;
+                    background-color: #33ffd9;
+                    border-radius: 20px;
+                    margin-left: 10px;
+                    
+                    span {
+                        color: #000;
+                        font-size: 21px;
+                        font-weight: 400;
+                    }
+                }
+                
+                .box-price-right:hover {
+                    background-color: rgba(51, 255, 217, 0.4);
+                    cursor: pointer;
+                }
+            }
+
+            #approve {
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+                margin-left: 60px;
+
+
+                .first-line {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 25px;
+
+                    p {
+                        font-size: 21px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+
+                    #pink-text {
+                        margin-left: 6px;
+                        font-size: 21px;
+                        color: #ff0076;
+                        letter-spacing: 1px;
+                    }
+
+                    #plus {
+                        color: #fff;
+                    }
+                }
+
+                .second-line {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 25px;
+
+                    p {
+                        font-size: 21px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+                }
+
+                .third-line {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 25px;
+
+                    p {
+                        font-size: 21px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+                }
+
+                .fourth-line {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 25px;
+
+                    p {
+                        font-size: 21px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                        
+                    }
+                }
+
+                .fifth-line {
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        font-size: 21px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                        
+                    }
+                }
+            }
+
+            button {
+                cursor: pointer;
+                position: absolute;
+                bottom: 60px;
+                left: 130px;
+                height: 50px;
+                width: 240px;
+                border: 0;
+                border-radius: 10px;
+                background-color: #4003ca;
+
+                span {
+                    color: #fff;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                }
+            }
         }
 
+        // Pink card
         #third-right-card {
+            position: relative;
             background-color: #17161e;
             width: 400px;
             height: 600px;
@@ -276,6 +460,151 @@ body {
                     color: #fff;
                     font-size: 24px;
                     font-weight: bold;
+                    letter-spacing: 1px;
+                }
+            }
+
+            .switch-price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 35px;
+
+                #first-coin {
+                    color: #fff;
+                    font-size: 31px;
+                    font-weight: bold;
+                    margin-right: 12px;
+                }
+            }
+
+            .container-change-price {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 30px;
+
+                .box-price-left {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 60px;
+                    width: 120px;
+                    border-radius: 20px;
+                    margin-right: 10px;
+                    
+                    span {
+                        color: #fff;
+                        font-size: 21px;
+                        font-weight: 400;
+                    }
+                }
+
+                .box-price-left:hover {
+                    background-color: rgba(255, 0, 118, 0.4);
+                    cursor: pointer;
+                }
+
+                .vertical-line {
+                    height: 60px;
+                    border-left: 1px solid #fff;
+                }
+
+                .box-price-right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 60px;
+                    width: 120px;
+                    background-color: #ff0076;
+                    border-radius: 20px;
+                    margin-left: 10px;
+                    
+                    span {
+                        color: #000;
+                        font-size: 21px;
+                        font-weight: 400;
+                    }
+                }
+                
+                .box-price-right:hover {
+                    background-color: rgba(255, 0, 118, 0.4);
+                    cursor: pointer;
+                }
+            }
+
+            #approve {
+                display: flex;
+                flex-direction: column;
+                margin-top: 30px;
+                margin-left: 35px;
+
+                .first-line {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+    
+                    p {
+                        font-size: 18px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+                }
+    
+                .second-line {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+    
+                    p {
+                        font-size: 18px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+                }
+    
+                .third-line {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+    
+                    p {
+                        font-size: 18px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+                }
+    
+                .fourth-line {
+                    display: flex;
+                    align-items: center;
+    
+                    p {
+                        font-size: 18px;
+                        color: #fff;
+                        margin-left: 10px;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+
+            button {
+                cursor: pointer;
+                position: absolute;
+                bottom: 30px;
+                left: 80px;
+                height: 50px;
+                width: 240px;
+                border: 0;
+                border-radius: 10px;
+                background-color: #4003ca;
+
+                span {
+                    color: #fff;
+                    font-size: 16px;
                     letter-spacing: 1px;
                 }
             }
