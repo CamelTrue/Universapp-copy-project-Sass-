@@ -328,6 +328,53 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
   margin-top: 2px;
 }
 
+.container-text {
+  margin-top: -80px;
+  margin-left: 15%;
+  width: 65%;
+}
+
+.container-text span {
+  font-size: 72px;
+  font-weight: 900;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(51, 255, 217, 0.19)), to(#33ffd9));
+  background: linear-gradient(to top, rgba(51, 255, 217, 0.19), #33ffd9);
+  background-clip: text;
+  color: transparent;
+}
+
+#Technologies {
+  /*
+
+    Bottone che trema
+    
+    .btn-test {
+        width: 200px;
+        height: 70px;
+        background-color: white;
+        margin-left: 200px;
+        margin-top: 200px;
+        border-radius: 10px;
+        opacity: 0.5;
+    }
+
+    .btn-test:hover {
+        animation: earthquake 0.1s infinite;
+    }
+
+    @keyframes earthquake {
+        0% {
+            transform: rota te(1deg);
+        }
+
+        100% {
+            transform: rotate(-1deg);
+        }
+    }
+
+    */
+}
+
 .box-end-page {
   display: -webkit-box;
   display: -ms-flexbox;
