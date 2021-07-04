@@ -364,7 +364,7 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
 
     @keyframes earthquake {
         0% {
-            transform: rota te(1deg);
+            transform: rotate(1deg);
         }
 
         100% {
