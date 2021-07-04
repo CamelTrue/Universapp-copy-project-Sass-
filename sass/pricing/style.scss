@@ -234,9 +234,13 @@ body {
             }
 
             button:hover {
-                border: 1px solid #fff;
+                border: 1px solid #4003ca;
                 background-color: #17161e;
                 border-radius: 30px;
+            }
+
+            button:hover span {
+                color: #4003ca;
             }
         }
 
@@ -312,6 +316,17 @@ body {
                 .box-price-left:hover {
                     background-color: rgba(51, 255, 217, 0.4);
                     cursor: pointer;
+                    animation: earthquake 0.1s infinite;
+                }
+
+                @keyframes earthquake {
+                    0% {
+                        transform: rotate(1deg);
+                    }
+            
+                    100% {
+                        transform: rotate(-1deg);
+                    }
                 }
 
                 .vertical-line {
@@ -339,6 +354,17 @@ body {
                 .box-price-right:hover {
                     background-color: rgba(51, 255, 217, 0.4);
                     cursor: pointer;
+                    animation: earthquake 0.1s infinite;
+                }
+
+                @keyframes earthquake {
+                    0% {
+                        transform: rotate(1deg);
+                    }
+            
+                    100% {
+                        transform: rotate(-1deg);
+                    }
                 }
             }
 
@@ -434,22 +460,26 @@ body {
                 left: 130px;
                 height: 50px;
                 width: 240px;
-                border: 0;
+                border: none;
                 border-radius: 10px;
-                background-color: #4003ca;
+                background-color: #33ffd9;
                 transition: 0.3s;
 
                 span {
-                    color: #fff;
+                    color: #000;
                     font-size: 16px;
                     letter-spacing: 1px;
                 }
             }
 
             button:hover {
-                border: 1px solid #fff;
+                border: 1px solid #33ffd9;
                 background-color: #17161e;
                 border-radius: 30px;
+            }
+
+            button:hover span {
+                color: #33ffd9;
             }
         }
 
@@ -517,6 +547,17 @@ body {
                 .box-price-left:hover {
                     background-color: rgba(255, 0, 118, 0.4);
                     cursor: pointer;
+                    animation: earthquake 0.1s infinite;
+                }
+
+                @keyframes earthquake {
+                    0% {
+                        transform: rotate(1deg);
+                    }
+            
+                    100% {
+                        transform: rotate(-1deg);
+                    }
                 }
 
                 .vertical-line {
@@ -544,6 +585,17 @@ body {
                 .box-price-right:hover {
                     background-color: rgba(255, 0, 118, 0.4);
                     cursor: pointer;
+                    animation: earthquake 0.1s infinite;
+                }
+
+                @keyframes earthquake {
+                    0% {
+                        transform: rotate(1deg);
+                    }
+            
+                    100% {
+                        transform: rotate(-1deg);
+                    }
                 }
             }
 
@@ -614,7 +666,7 @@ body {
                 width: 240px;
                 border: 0;
                 border-radius: 10px;
-                background-color: #4003ca;
+                background-color: #ff0076;
                 transition: 0.3s;
 
                 span {
@@ -625,9 +677,13 @@ body {
             }
 
             button:hover {
-                border: 1px solid #fff;
+                border: 1px solid #ff0076;
                 background-color: #17161e;
                 border-radius: 30px;
+            }
+
+            button:hover span {
+                color: #ff0076;
             }
         }
     }
