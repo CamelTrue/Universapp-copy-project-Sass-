@@ -240,7 +240,7 @@ header {
     span {
         font-size: 72px;
         font-weight: 900;
-        background: linear-gradient(to top, rgba(51, 255, 217, 0.19), #33ffd9);
+        background: linear-gradient(to top, rgba(51, 255, 217, 0.10), #33ffd9);
         background-clip: text;
         color: transparent;
     }
@@ -253,35 +253,58 @@ header {
 // Inizio Hero 01
 
 #Technologies {
-    /*
-
-    Bottone che trema
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-top: 50px;
     
-    .btn-test {
-        width: 200px;
-        height: 70px;
-        background-color: white;
-        margin-left: 200px;
-        margin-top: 200px;
-        border-radius: 10px;
-        opacity: 0.5;
-    }
+    .section-left-title {
 
-    .btn-test:hover {
-        animation: earthquake 0.1s infinite;
-    }
+        .number {
 
-    @keyframes earthquake {
-        0% {
-            transform: rotate(1deg);
+            span {
+                font-size: 72px;
+                font-weight: 900;
+                color: #fff;
+            }
         }
 
-        100% {
-            transform: rotate(-1deg);
+        .title-01 {
+            margin-top: 20px;
+
+            span {
+                font-size: 48px;
+                font-weight: 500;
+                color: #f90173;
+            }
+        }
+
+        .content-01 {
+            margin-top: 12px;
+
+            span {
+                font-size: 18px;
+                font-weight: 400;
+                color: #fff;
+            }
         }
     }
 
-    */ 
+    .container-right {
+        width: 702px;
+        height: 228px;
+        background-color: rgba($color: #fff, $alpha: 0.3);
+        border-radius: 40px;
+        margin-right: 300px;
+
+        .flex-img {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 25px;
+            height: 170px;
+        }
+    }
 }
 
 // Fine Hero 01
@@ -317,3 +340,33 @@ header {
 }
 
 // Fine Footer
+
+/*
+
+    Bottone che trema
+    
+    .btn-test {
+        width: 200px;
+        height: 70px;
+        background-color: white;
+        margin-left: 200px;
+        margin-top: 200px;
+        border-radius: 10px;
+        opacity: 0.5;
+    }
+
+    .btn-test:hover {
+        animation: earthquake 0.1s infinite;
+    }
+
+    @keyframes earthquake {
+        0% {
+            transform: rotate(1deg);
+        }
+
+        100% {
+            transform: rotate(-1deg);
+        }
+    }
+
+    */ 
