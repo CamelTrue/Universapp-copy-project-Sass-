@@ -381,14 +381,141 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
 }
 
 #Technologies .container-right {
+  position: relative;
   width: 702px;
   height: 228px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
-  margin-right: 300px;
+  margin-right: 200px;
+}
+
+#Technologies .container-right #ring-blue {
+  position: absolute;
+  bottom: 100px;
+  right: 640px;
+  width: 160px;
+  height: 160px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f02c6), to(#000));
+  background: linear-gradient(to bottom, #3f02c6, #000);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+#Technologies .container-right #ring-orange {
+  position: absolute;
+  top: 120px;
+  left: 580px;
+  width: 180px;
+  height: 180px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b85f00), to(#000));
+  background: linear-gradient(to bottom, #b85f00, #000);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#Technologies .container-right #ring-acqua {
+  position: absolute;
+  bottom: -20px;
+  left: 470px;
+  width: 300px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#31f7d3), to(#000));
+  background: linear-gradient(to bottom, #31f7d3, #000);
+  border-radius: 50%;
+  z-index: -2;
+  opacity: 1;
 }
 
 #Technologies .container-right .flex-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
+  height: 170px;
+}
+
+#Course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 15%;
+  margin-top: 60px;
+}
+
+#Course .section-left-title .number span {
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+}
+
+#Course .section-left-title .title-01 {
+  margin-top: 20px;
+}
+
+#Course .section-left-title .title-01 span {
+  font-size: 48px;
+  font-weight: 500;
+  color: #f90173;
+}
+
+#Course .section-left-title .content-01 {
+  margin-top: 12px;
+}
+
+#Course .section-left-title .content-01 span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+#Course .container-right {
+  position: relative;
+  width: 530px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  margin-right: 200px;
+}
+
+#Course .container-right #ring-pink {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  width: 180px;
+  height: 180px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ec006d), to(#000));
+  background: linear-gradient(to bottom, #ec006d, #000);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+#Course .container-right #ring-acqua {
+  position: absolute;
+  top: -45px;
+  left: -100px;
+  width: 370px;
+  height: 370px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#31f7d3), to(#000));
+  background: linear-gradient(to bottom, #31f7d3, #000);
+  border-radius: 50%;
+  z-index: -2;
+  opacity: 1;
+}
+
+#Course .container-right .flex-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
