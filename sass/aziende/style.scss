@@ -523,17 +523,6 @@ header {
 
 // Inizio Header to Hero
 
-.img-opc {
-    position: absolute;
-    top: 2000px;
-    right: 360px;
-    z-index: -1;
-
-    img {
-        z-index: -1;
-    }
-}
-
 #head-container {
     position: relative;
     width: 1300px;
@@ -543,7 +532,119 @@ header {
     border-top-right-radius: 40px;
     margin-left: 15%;
     margin-top: 80px;
-    z-index: 1;
+    z-index: 100;
+
+    .head-title {
+        padding: 30px 60px;
+
+        span {
+            font-size: 48px;
+            font-weight: 500;
+            color: #33ffd9;
+            letter-spacing: 1px;
+        }
+    }
+
+    .head-content {
+        margin-left: 60px;
+
+        .first-line {
+            
+            span {
+                font-size: 24px;
+                letter-spacing: 1px;
+                color: #fff;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+        }
+
+        .second-line {
+            padding-top: 20px;
+
+            span {
+                font-size: 24px;
+                letter-spacing: 1px;
+                color: #fff;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+        }
+
+        .third-line {
+            padding-top: 20px;
+
+            span {
+                font-size: 24px;
+                letter-spacing: 1px;
+                color: #fff;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+        }
+    }
+}
+
+hgroup {
+    position: absolute;
+    top: 2020px;
+    left: 1520px;
+
+    .ring {
+        position: absolute;
+        top: -115px;
+        right: -230px;
+        width: 450px;
+        height: 450px;
+        z-index: -10;
+
+        .first-max-ring {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 450px;
+            width: 450px;
+            border-radius: 50%;
+            background: linear-gradient(to bottom, rgba(63, 3, 198, 1), 39%,  rgba(0, 0, 0, 0.6));
+
+            .second-max-ring {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 345px;
+                width: 345px;
+                border-radius: 50%;
+                background: linear-gradient(to bottom, rgba(245, 0, 122, 1), 39%, rgba(24, 2, 38, 0.6));
+
+
+                .first-low-ring {
+                    display: flex;
+                justify-content: center;
+                align-items: center;
+                    height: 225px;
+                    width: 225px;
+                    border-radius: 50%;
+                    background-color: #dd0176;
+                    background: linear-gradient(to bottom, rgba(221, 1, 118, 0.2), 39%, rgba(246, 0, 117, 1));
+
+                    .second-low-ring {
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+                        background-color: #6802b6;
+                        background: linear-gradient(to bottom, rgba(104, 2, 182, 0.9), 60%, rgba(184, 1, 137, 0.6));
+                    }
+                }
+            }
+        }
+    }
+
+    .img-opc {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        z-index: -20;
+    }
 }
 
 // Fine Header to Hero
