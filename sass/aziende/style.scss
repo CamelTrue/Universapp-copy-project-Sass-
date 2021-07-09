@@ -258,9 +258,9 @@ header {
     margin-left: 15%;
     margin-top: 50px;
     
-    .section-left-title {
+    .section-left-title-one {
 
-        .number {
+        .number-01 {
 
             span {
                 font-size: 72px;
@@ -296,7 +296,7 @@ header {
         height: 228px;
         background-color: rgba($color: #fff, $alpha: 0.3);
         border-radius: 40px;
-        margin-right: 200px;
+        margin-right: 250px;
 
         #ring-blue {
             position: absolute;
@@ -359,7 +359,7 @@ header {
 
     .section-left-title {
 
-        .number {
+        .number-02 {
 
             span {
                 font-size: 72px;
@@ -368,7 +368,7 @@ header {
             }
         }
 
-        .title-01 {
+        .title-02 {
             margin-top: 20px;
 
             span {
@@ -378,7 +378,7 @@ header {
             }
         }
 
-        .content-01 {
+        .content-02 {
             margin-top: 12px;
 
             span {
@@ -395,11 +395,11 @@ header {
         height: 250px;
         background-color: rgba($color: #fff, $alpha: 0.3);
         border-radius: 40px;
-        margin-right: 200px;
+        margin-right: 420px;
 
         #ring-pink {
             position: absolute;
-            top: 120px;
+            top: 140px;
             left: 120px;
             width: 180px;
             height: 180px;
@@ -409,7 +409,7 @@ header {
             opacity: 0.8;
         }
 
-        #ring-acqua {
+        #ring-acqua-marine {
             position: absolute;
             top: -45px;
             left: -100px;
@@ -438,10 +438,115 @@ header {
 // Inizio Hero 03
 
 #Project {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-top: 80px;
 
+    .section-left-title-three {
+
+        .number-03 {
+
+            span {
+                font-size: 72px;
+                font-weight: 900;
+                color: #fff;
+            }
+        }
+
+        .title-03 {
+            margin-top: 20px;
+
+            span {
+                font-size: 48px;
+                font-weight: 500;
+                color: #f90173;
+            }
+        }
+
+        .content-03 {
+            margin-top: 12px;
+
+            span {
+                font-size: 18px;
+                font-weight: 400;
+                color: #fff;
+            }
+        }
+    }
+
+    .container-right {
+        position: relative;
+        width: 530px;
+        height: 250px;
+        background-color: rgba($color: #fff, $alpha: 0.3);
+        border-radius: 40px;
+        margin-right: 420px;
+        margin-top: 60px;
+
+        #square-pink {
+            position: absolute;
+            transform: rotate(75deg);
+            bottom: -25px;
+            left: 330px;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(to bottom, #fb0075, #000);
+            z-index: -2;
+            opacity: 0.8;
+        }
+
+        #square-orange {
+            position: absolute;
+            transform: rotate(75deg);
+            top: -15px;
+            left: 300px;
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(to bottom, #f57f00, #000);
+            z-index: -1;
+        }
+
+        .flex-img {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 25px;
+            height: 170px;
+        }
+    }
 }
 
 // Fine Hero 03
+
+
+
+// Inizio Header to Hero
+
+.img-opc {
+    position: absolute;
+    top: 2000px;
+    right: 360px;
+    z-index: -1;
+
+    img {
+        z-index: -1;
+    }
+}
+
+#head-container {
+    position: relative;
+    width: 1300px;
+    height: 500px;
+    background: linear-gradient( to top, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.4));
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-left: 15%;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+// Fine Header to Hero
 
 
 

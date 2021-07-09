@@ -354,27 +354,27 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
   margin-top: 50px;
 }
 
-#Technologies .section-left-title .number span {
+#Technologies .section-left-title-one .number-01 span {
   font-size: 72px;
   font-weight: 900;
   color: #fff;
 }
 
-#Technologies .section-left-title .title-01 {
+#Technologies .section-left-title-one .title-01 {
   margin-top: 20px;
 }
 
-#Technologies .section-left-title .title-01 span {
+#Technologies .section-left-title-one .title-01 span {
   font-size: 48px;
   font-weight: 500;
   color: #f90173;
 }
 
-#Technologies .section-left-title .content-01 {
+#Technologies .section-left-title-one .content-01 {
   margin-top: 12px;
 }
 
-#Technologies .section-left-title .content-01 span {
+#Technologies .section-left-title-one .content-01 span {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -386,7 +386,7 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
   height: 228px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
-  margin-right: 200px;
+  margin-right: 250px;
 }
 
 #Technologies .container-right #ring-blue {
@@ -454,27 +454,27 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
   margin-top: 60px;
 }
 
-#Course .section-left-title .number span {
+#Course .section-left-title .number-02 span {
   font-size: 72px;
   font-weight: 900;
   color: #fff;
 }
 
-#Course .section-left-title .title-01 {
+#Course .section-left-title .title-02 {
   margin-top: 20px;
 }
 
-#Course .section-left-title .title-01 span {
+#Course .section-left-title .title-02 span {
   font-size: 48px;
   font-weight: 500;
   color: #f90173;
 }
 
-#Course .section-left-title .content-01 {
+#Course .section-left-title .content-02 {
   margin-top: 12px;
 }
 
-#Course .section-left-title .content-01 span {
+#Course .section-left-title .content-02 span {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -486,12 +486,12 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
   height: 250px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 40px;
-  margin-right: 200px;
+  margin-right: 420px;
 }
 
 #Course .container-right #ring-pink {
   position: absolute;
-  top: 120px;
+  top: 140px;
   left: 120px;
   width: 180px;
   height: 180px;
@@ -502,7 +502,7 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
   opacity: 0.8;
 }
 
-#Course .container-right #ring-acqua {
+#Course .container-right #ring-acqua-marine {
   position: absolute;
   top: -45px;
   left: -100px;
@@ -526,6 +526,117 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
           align-items: center;
   margin-top: 25px;
   height: 170px;
+}
+
+#Project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 15%;
+  margin-top: 80px;
+}
+
+#Project .section-left-title-three .number-03 span {
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+}
+
+#Project .section-left-title-three .title-03 {
+  margin-top: 20px;
+}
+
+#Project .section-left-title-three .title-03 span {
+  font-size: 48px;
+  font-weight: 500;
+  color: #f90173;
+}
+
+#Project .section-left-title-three .content-03 {
+  margin-top: 12px;
+}
+
+#Project .section-left-title-three .content-03 span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+#Project .container-right {
+  position: relative;
+  width: 530px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  margin-right: 420px;
+  margin-top: 60px;
+}
+
+#Project .container-right #square-pink {
+  position: absolute;
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+  bottom: -25px;
+  left: 330px;
+  width: 300px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fb0075), to(#000));
+  background: linear-gradient(to bottom, #fb0075, #000);
+  z-index: -2;
+  opacity: 0.8;
+}
+
+#Project .container-right #square-orange {
+  position: absolute;
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+  top: -15px;
+  left: 300px;
+  width: 120px;
+  height: 120px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f57f00), to(#000));
+  background: linear-gradient(to bottom, #f57f00, #000);
+  z-index: -1;
+}
+
+#Project .container-right .flex-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+  height: 170px;
+}
+
+.img-opc {
+  position: absolute;
+  top: 2000px;
+  right: 360px;
+  z-index: -1;
+}
+
+.img-opc img {
+  z-index: -1;
+}
+
+#head-container {
+  position: relative;
+  width: 1300px;
+  height: 500px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 0.4)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.4));
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-left: 15%;
+  margin-top: 80px;
+  z-index: 1;
 }
 
 .box-end-page {
