@@ -585,6 +585,33 @@ header {
     }
 }
 
+.box-line {
+    position: absolute;
+    top: 2250px;
+    height: 120px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .first-line {
+        width: 100%;
+        border-top: 3px solid #33ffd9;
+    }
+
+    .second-line {
+        width: 100%;
+        border-top: 3px solid #33ffd9;
+        opacity: 0.8;
+    }
+
+    .third-line {
+        width: 100%;
+        border-top: 3px solid #33ffd9;
+        opacity: 0.5;
+    }
+}
+
 hgroup {
     position: absolute;
     top: 2020px;

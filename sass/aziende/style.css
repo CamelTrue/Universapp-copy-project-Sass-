@@ -675,6 +675,40 @@ header .custom-container .header-boxing .box-left .box-right .box-container-elem
   line-height: 1.2;
 }
 
+.box-line {
+  position: absolute;
+  top: 2250px;
+  height: 120px;
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box-line .first-line {
+  width: 100%;
+  border-top: 3px solid #33ffd9;
+}
+
+.box-line .second-line {
+  width: 100%;
+  border-top: 3px solid #33ffd9;
+  opacity: 0.8;
+}
+
+.box-line .third-line {
+  width: 100%;
+  border-top: 3px solid #33ffd9;
+  opacity: 0.5;
+}
+
 hgroup {
   position: absolute;
   top: 2020px;
