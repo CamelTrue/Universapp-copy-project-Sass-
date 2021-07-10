@@ -44,12 +44,11 @@ body {
     position: absolute;
     top: 165px;
     left: 16.5%;
-    width: 1340px;
+    width: 70.5%;
     height: 450px;
     border-radius: 80px;
     border: 2px solid #4003ca;
     z-index: 2;
-
 }
 
 header {
@@ -184,8 +183,8 @@ header {
     
                     .square-blue {
                         position: absolute;
-                        top: 80px;
-                        left: 1110px;
+                        margin-top: 240px;
+                        margin-right: 5.5%;
                         width: 380px;
                         height: 380px;
                         transform: rotate(70deg);
@@ -588,8 +587,8 @@ header {
 .box-line {
     position: absolute;
     top: 2250px;
-    height: 120px;
-    width: 320px;
+    height: 105px;
+    width: 330px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -617,7 +616,7 @@ hgroup {
     top: 2020px;
     left: 1520px;
 
-    .ring {
+    #ring {
         position: absolute;
         top: -115px;
         right: -230px;
@@ -678,42 +677,370 @@ hgroup {
 
 
 
+// Inizio Base e Premium
+
+#based-and-premium-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -260px;
+    margin-left: 15%;
+    height: 800px;
+    width: 1300px;
+
+    // INIZIO BASE
+
+    #base {
+        height: 500px;
+        width: 560px;
+        background: linear-gradient(to bottom, #e10268, 50%, #000);
+        margin-right: 100px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+
+        .title-base {
+            margin: 30px 50px;
+            margin-bottom: 15px;
+            z-index: 2;
+
+            span {
+                color: #33ffd9;
+                font-weight: 500;
+                font-size: 48px;
+                letter-spacing: 1px;
+            }
+        }
+
+        .subtitle-base {
+            margin-left: 50px;
+            margin-bottom: 20px;
+            z-index: 2;
+
+            span {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+        }
+
+        .pricing-base {
+            margin-left: 50px;
+            z-index: 2;
+
+            span {
+                color: #fff;
+                font-size: 80px;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+        }
+
+        .content-subpricing {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            margin-top: 20px;
+            z-index: 2;
+
+            #base-1 {
+                font-size: 24px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                color: #fff;
+                z-index: 3;
+            }
+
+            #base-2 {
+                font-size: 24px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                margin-top: 12px;
+                color: #fff;
+                z-index: 3;
+            }
+        }
+
+        #ring-base {
+            position: absolute;
+            top: 435px;
+            left: 230px;
+            width: 450px;
+            height: 450px;
+            z-index: 1;
+    
+            .first-max-ring {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 450px;
+                width: 450px;
+                border-radius: 50%;
+                background: linear-gradient(to bottom, rgba(42, 207, 177, 0.9), 55%, rgba(0, 0, 0, 0.2));
+    
+                .second-max-ring {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 345px;
+                    width: 345px;
+                    border-radius: 50%;
+                    background: linear-gradient(to bottom, rgba(245, 0, 122, 1), 75%, rgba(24, 2, 38, 0.2));
+    
+    
+                    .first-low-ring {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 225px;
+                        width: 225px;
+                        border-radius: 50%;
+                        background-color: #dd0176;
+                        background: linear-gradient(to bottom, rgba(93, 201, 195, 1), rgba(63, 70, 82, 0.2));
+    
+                        .second-low-ring {
+                            height: 150px;
+                            width: 150px;
+                            border-radius: 50%;
+                            background-color: #6802b6;
+                            background: linear-gradient(to bottom, rgba(247, 9, 121, 1), 70%, rgba(128, 91, 128, 0.2));
+                        }
+                    }
+                }
+            }
+        }
+
+        .center-button-base {
+            position: relative;
+            top: 310px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 60px;
+            z-index: 2;
+
+            a {
+                position: absolute;
+                bottom: 180px;
+                width: 450px;
+                height: 60px;
+                text-decoration: none;
+                
+                button {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 450px;
+                    height: 60px;
+                    border: none;
+                    background-color: #33ffd9;
+                    cursor: pointer;
+    
+                    span {
+                        text-decoration: none;
+                        font-family: "Press Start 2P", cursive;
+                        color: #f90173;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    // FINE BASE
+
+
+
+    // INIZIO PREMIUM
+
+    #premium {
+        height: 500px;
+        width: 560px;
+        background: linear-gradient(to bottom, #2fe7c5, 50%, #000);
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+
+        .title-premium {
+            margin: 30px 50px;
+            margin-bottom: 15px;
+            z-index: 2;
+
+            span {
+                color: #f90173;
+                font-weight: 500;
+                font-size: 48px;
+                letter-spacing: 1px;
+            }
+        }
+
+        .subtitle-premium {
+            margin-left: 50px;
+            margin-bottom: 20px;
+            z-index: 2;
+
+            span {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+        }
+
+        .contact {
+            margin-left: 50px;
+            z-index: 2;
+
+            span {
+                color: #fff;
+                font-size: 80px;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+        }
+
+        .content-subcontact {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            margin-top: 20px;
+            z-index: 2;
+
+            #premium-1 {
+                font-size: 24px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                color: #fff;
+                z-index: 3;
+            }
+
+            #premium-2 {
+                font-size: 24px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                margin-top: 12px;
+                color: #fff;
+                z-index: 3;
+            }
+
+            #premium-3 {
+                font-size: 24px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                margin-top: 12px;
+                color: #fff;
+                z-index: 3;
+            }
+            
+            #premium-4 {
+                font-size: 24px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                margin-top: 12px;
+                color: #fff;
+                z-index: 3;
+            }
+        }
+    }
+
+    #ring-premium {
+        position: absolute;
+        top: 435px;
+        left: 900px;
+        width: 450px;
+        height: 450px;
+        z-index: 1;
+
+        .first-max-ring {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 450px;
+            width: 450px;
+            border-radius: 50%;
+            background: linear-gradient(to bottom, rgba(199, 1, 93, 0.8), 60%, rgba(0, 0, 0, 0.2));
+
+            .second-max-ring {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 345px;
+                width: 345px;
+                border-radius: 50%;
+                background: linear-gradient(to bottom, rgba(60, 242, 210, 1), 250px, rgba(45, 17, 34, 0.2));
+
+
+                .first-low-ring {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 225px;
+                    width: 225px;
+                    border-radius: 50%;
+                    background-color: #dd0176;
+                    background: linear-gradient(to bottom, rgba(212, 53, 138, 1), rgba(77, 50, 73, 0.2));
+
+                    .second-low-ring {
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 50%;
+                        background-color: #6802b6;
+                        background: linear-gradient(to bottom, rgba(55, 249, 215, 1), 70%, rgba(83, 177, 173, 0.2));
+                    }
+                }
+            }
+        }
+    }
+
+    .center-button-premium {
+        position: relative;
+        top: 228px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 60px;
+        z-index: 2;
+
+        a {
+            position: absolute;
+            bottom: 180px;
+            width: 450px;
+            height: 60px;
+            text-decoration: none;
+            
+            button {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 450px;
+                height: 60px;
+                border: none;
+                background-color: #f90173;
+                cursor: pointer;
+    
+                span {
+                    text-decoration: none;
+                    font-family: "Press Start 2P", cursive;
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    // FINE PREMIUM
+}
+
+// Fine Base e Premium
+
+
+
 // Inizio Footer
 
 @import "../templates/footer";
 
 .box-end-page {
-    margin-top: -200px;
+    margin-top: -570px;
 }
 
 // Fine Footer
-
-/*
-
-    Bottone che trema
-    
-    .btn-test {
-        width: 200px;
-        height: 70px;
-        background-color: white;
-        margin-left: 200px;
-        margin-top: 200px;
-        border-radius: 10px;
-        opacity: 0.5;
-    }
-
-    .btn-test:hover {
-        animation: earthquake 0.1s infinite;
-    }
-
-    @keyframes earthquake {
-        0% {
-            transform: rotate(1deg);
-        }
-
-        100% {
-            transform: rotate(-1deg);
-        }
-    }
-
-    */ 
