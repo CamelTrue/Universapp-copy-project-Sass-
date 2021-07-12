@@ -796,6 +796,8 @@ body {
   margin-right: 200px;
   z-index: 2;
   opacity: 0.89;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .section-container-index .container-dawn .nst-one .sub-container .abs-item-two {
@@ -804,6 +806,8 @@ body {
   margin-right: 85px;
   z-index: 1;
   opacity: 0.7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .section-container-index .container-dawn .nst-one .sub-container .container-right {
@@ -819,6 +823,8 @@ body {
   width: 250px;
   border-radius: 15px;
   opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .section-container-index .container-dawn .nst-one .sub-container .container-right .text-box {
@@ -828,6 +834,8 @@ body {
   font-weight: 700;
   margin-top: 20px;
   margin-left: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .section-container-index .container-dawn .nst-one .sub-container .container-right .flex-icon {
@@ -835,11 +843,39 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  margin-left: 150px;
-  margin-top: 80px;
+  top: 130px;
+  left: 175px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .section-container-index .container-dawn .nst-one .sub-container .container-right .flex-icon i {
+  margin-left: 10px;
+}
+
+.section-container-index .container-dawn .nst-one:hover .container-right {
+  background-color: #000;
+  -webkit-box-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+          box-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+}
+
+.section-container-index .container-dawn .nst-one:hover .container-right .text-box {
+  color: #33ffd9;
+  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.section-container-index .container-dawn .nst-one:hover .abs-item-one {
+  margin-left: 120px;
+}
+
+.section-container-index .container-dawn .nst-one:hover .abs-item-two {
+  margin-right: -25px;
+}
+
+.section-container-index .container-dawn .nst-one:hover .flex-icon {
+  margin-top: -60px;
   margin-left: 10px;
 }
 
