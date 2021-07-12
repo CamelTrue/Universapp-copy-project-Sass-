@@ -307,12 +307,7 @@ body {
         text-shadow:
             0 0 7px #33ffd9,
             0 0 10px #17d1b2,
-            0 0 21px #14ba9f,
-            0 0 42px #119c85,
-            0 0 82px #0d806d,
-            0 0 92px #0a6959,
-            0 0 102px #074a3f,
-            0 0 151px #000000; 
+            0 0 21px #000000;
 
         span {
             margin-left: 15%;
@@ -340,6 +335,7 @@ body {
         border-radius: 40px;
         margin-left: 15%;
         margin-top: 30px;
+        transition: 0.3s;
 
         .main-title {
             color: #33FFD9;
@@ -347,6 +343,7 @@ body {
             font-size: 24px;
             padding: 20px 30px;
             letter-spacing: 1px;
+            transition: 0.3s;
         }
 
         .content-text {
@@ -356,10 +353,12 @@ body {
             padding-left: 30px;
             letter-spacing: 1px;
             padding-bottom: 30px;
+            transition: 0.3s;
         }
 
         .logos {
             margin-left: 30px;
+            transition: 0.3s;
 
             img {
                 margin-right: 15px;
@@ -371,6 +370,7 @@ body {
             left: 250px;
             bottom: 15px;
             z-index: -1;
+            transition: 0.3s;
             
             img {
                 width: 200px;
@@ -420,6 +420,35 @@ body {
             position: relative;
             bottom: 10px;
         }
+    }
+
+    .container:hover {
+        box-shadow: 
+                0 0 7px #33ffd9,
+                0 0 10px #17d1b2,
+                0 0 21px #14ba9f,
+                0 0 42px #119c85,
+                0 0 82px #0d806d,
+                0 0 92px #0a6959,
+                0 0 102px #074a3f,
+                0 0 151px #000000;
+    }
+
+    .container:hover .main-title {
+        margin-left: -20px;
+    }
+
+    .container:hover .content-text {
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+
+    .container:hover .logos {
+        margin-left: -20px;
+    }
+
+    .container:hover .robot{
+        left: 320px;
     }
 }
 
@@ -1052,6 +1081,7 @@ body {
                     color: #000;
                     font-size: 24px;
                     font-weight: 500;
+                    transition: 0.3s;
                 }
     
                 .html5-img {
@@ -1060,6 +1090,7 @@ body {
                     left: -40px;
                     top: 75px;
                     z-index: 2;
+                    transition: 0.3s;
                 }
     
                 .css3-img {
@@ -1067,6 +1098,7 @@ body {
                     left: 30px;
                     top: 85px;
                     z-index: 1;
+                    transition: 0.3s;
                 }
     
                 .flex-icon {
@@ -1074,11 +1106,29 @@ body {
                     top: 105px;
                     right: 30px;
                     color: #fff;
+                    transition: 0.3s;
     
                     i {
                         padding-left: 5px;
                     }
                 }
+            }
+
+            .first-box-card:hover span {
+                top: 5px;
+                left: 15px;
+            }
+
+            .first-box-card:hover .html5-img {
+                left: 10px;
+            }
+
+            .first-box-card:hover .css3-img {
+                left: 80px;
+            }
+
+            .first-box-card:hover .flex-icon {
+                top: 50px;
             }
         }
 
@@ -1102,12 +1152,14 @@ body {
                     color: #000;
                     font-size: 24px;
                     font-weight: 500;
+                    transition: 0.3s;
                 }
     
                 .js-img {
                     position: absolute;
                     left: 30px;
                     top: 90px;
+                    transition: 0.3s;
                 }
     
                 .flex-icon {
@@ -1115,7 +1167,21 @@ body {
                     top: 105px;
                     right: 30px;
                     color: #fff;
+                    transition: 0.3s;
                 }
+            }
+
+            .second-box-card:hover span {
+                top: 5px;
+                left: 15px;
+            }
+
+            .second-box-card:hover .js-img {
+                left: 60px;
+            }
+
+            .second-box-card:hover .flex-icon {
+                top: 50px;
             }
         }
 
@@ -1139,6 +1205,7 @@ body {
                     color: #000;
                     font-size: 24px;
                     font-weight: 500;
+                    transition: 0.3s;
                 }
     
                 .react-img {
@@ -1146,6 +1213,7 @@ body {
                     opacity: 0.7;
                     left: 30px;
                     top: 90px;
+                    transition: 0.3s;
                 }
     
                 .flex-icon {
@@ -1153,7 +1221,21 @@ body {
                     top: 105px;
                     right: 30px;
                     color: #fff;
+                    transition: 0.3s;
                 }
+            }
+
+            .third-box-card:hover span {
+                top: 5px;
+                left: 15px;
+            }
+
+            .third-box-card:hover .react-img {
+                left: 60px;
+            }
+
+            .third-box-card:hover .flex-icon {
+                top: 50px;
             }
         }
 
@@ -1167,7 +1249,7 @@ body {
                 height: 160px;
                 width: 250px;
                 border-radius: 20px;
-                background-color: #4d4d4d;
+                background-color: #4d4d4d;  
     
                 span {
                     position: absolute;
@@ -1177,6 +1259,7 @@ body {
                     color: #000;
                     font-size: 24px;
                     font-weight: 500;
+                    transition: 0.3s;
                 }
     
                 .react-native-img {
@@ -1184,6 +1267,7 @@ body {
                     opacity: 0.7;
                     left: 30px;
                     top: 90px;
+                    transition: 0.3s;
                 }
     
                 .flex-icon {
@@ -1191,7 +1275,21 @@ body {
                     top: 105px;
                     right: 30px;
                     color: #fff;
+                    transition: 0.3s;
                 }
+            }
+
+            .fourth-box-card:hover span {
+                top: 5px;
+                left: 15px;
+            }
+
+            .fourth-box-card:hover .react-native-img {
+                left: 60px;
+            }
+
+            .fourth-box-card:hover .flex-icon {
+                top: 50px;
             }
         }
 
@@ -1214,12 +1312,14 @@ body {
                     color: #000;
                     font-size: 24px;
                     font-weight: 500;
+                    transition: 0.3s;
                 }
     
                 .git-img {
                     position: absolute;
                     left: 30px;
                     top: 90px;
+                    transition: 0.3s;
                 }
     
                 .flex-icon {
@@ -1227,7 +1327,21 @@ body {
                     top: 105px;
                     right: 30px;
                     color: #fff;
+                    transition: 0.3s;
                 }
+            }
+
+            .fifth-box-card:hover span {
+                top: 5px;
+                left: 15px;
+            }
+
+            .fifth-box-card:hover .git-img {
+                left: 60px;
+            }
+
+            .fifth-box-card:hover .flex-icon {
+                top: 50px;
             }
         }
     }

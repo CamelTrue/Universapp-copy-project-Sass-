@@ -442,7 +442,7 @@ body {
   width: 100%;
   height: 65px;
   border-bottom: 1px solid #33ffd9;
-  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+  text-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #000000;
 }
 
 #street-course .head-title span {
@@ -470,6 +470,8 @@ body {
   border-radius: 40px;
   margin-left: 15%;
   margin-top: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #street-course .container .main-title {
@@ -478,6 +480,8 @@ body {
   font-size: 24px;
   padding: 20px 30px;
   letter-spacing: 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #street-course .container .content-text {
@@ -487,10 +491,14 @@ body {
   padding-left: 30px;
   letter-spacing: 1px;
   padding-bottom: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #street-course .container .logos {
   margin-left: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #street-course .container .logos img {
@@ -502,6 +510,8 @@ body {
   left: 250px;
   bottom: 15px;
   z-index: -1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #street-course .container .robot img {
@@ -556,6 +566,28 @@ body {
 #street-course .container .box-button:hover .button-icon img {
   position: relative;
   bottom: 10px;
+}
+
+#street-course .container:hover {
+  -webkit-box-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+          box-shadow: 0 0 7px #33ffd9, 0 0 10px #17d1b2, 0 0 21px #14ba9f, 0 0 42px #119c85, 0 0 82px #0d806d, 0 0 92px #0a6959, 0 0 102px #074a3f, 0 0 151px #000000;
+}
+
+#street-course .container:hover .main-title {
+  margin-left: -20px;
+}
+
+#street-course .container:hover .content-text {
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+#street-course .container:hover .logos {
+  margin-left: -20px;
+}
+
+#street-course .container:hover .robot {
+  left: 320px;
 }
 
 #single-course {
@@ -1161,6 +1193,8 @@ body {
   color: #000;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .first-box-card .html5-img {
@@ -1169,6 +1203,8 @@ body {
   left: -40px;
   top: 75px;
   z-index: 2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .first-box-card .css3-img {
@@ -1176,6 +1212,8 @@ body {
   left: 30px;
   top: 85px;
   z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .first-box-card .flex-icon {
@@ -1183,10 +1221,29 @@ body {
   top: 105px;
   right: 30px;
   color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .first-box-card .flex-icon i {
   padding-left: 5px;
+}
+
+#free-course .container-mini-box a .first-box-card:hover span {
+  top: 5px;
+  left: 15px;
+}
+
+#free-course .container-mini-box a .first-box-card:hover .html5-img {
+  left: 10px;
+}
+
+#free-course .container-mini-box a .first-box-card:hover .css3-img {
+  left: 80px;
+}
+
+#free-course .container-mini-box a .first-box-card:hover .flex-icon {
+  top: 50px;
 }
 
 #free-course .container-mini-box a {
@@ -1211,12 +1268,16 @@ body {
   color: #000;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .second-box-card .js-img {
   position: absolute;
   left: 30px;
   top: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .second-box-card .flex-icon {
@@ -1224,6 +1285,21 @@ body {
   top: 105px;
   right: 30px;
   color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#free-course .container-mini-box a .second-box-card:hover span {
+  top: 5px;
+  left: 15px;
+}
+
+#free-course .container-mini-box a .second-box-card:hover .js-img {
+  left: 60px;
+}
+
+#free-course .container-mini-box a .second-box-card:hover .flex-icon {
+  top: 50px;
 }
 
 #free-course .container-mini-box a {
@@ -1248,6 +1324,8 @@ body {
   color: #000;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .third-box-card .react-img {
@@ -1255,6 +1333,8 @@ body {
   opacity: 0.7;
   left: 30px;
   top: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .third-box-card .flex-icon {
@@ -1262,6 +1342,21 @@ body {
   top: 105px;
   right: 30px;
   color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#free-course .container-mini-box a .third-box-card:hover span {
+  top: 5px;
+  left: 15px;
+}
+
+#free-course .container-mini-box a .third-box-card:hover .react-img {
+  left: 60px;
+}
+
+#free-course .container-mini-box a .third-box-card:hover .flex-icon {
+  top: 50px;
 }
 
 #free-course .container-mini-box a {
@@ -1286,6 +1381,8 @@ body {
   color: #000;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .fourth-box-card .react-native-img {
@@ -1293,6 +1390,8 @@ body {
   opacity: 0.7;
   left: 30px;
   top: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .fourth-box-card .flex-icon {
@@ -1300,6 +1399,21 @@ body {
   top: 105px;
   right: 30px;
   color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#free-course .container-mini-box a .fourth-box-card:hover span {
+  top: 5px;
+  left: 15px;
+}
+
+#free-course .container-mini-box a .fourth-box-card:hover .react-native-img {
+  left: 60px;
+}
+
+#free-course .container-mini-box a .fourth-box-card:hover .flex-icon {
+  top: 50px;
 }
 
 #free-course .container-mini-box a {
@@ -1323,12 +1437,16 @@ body {
   color: #000;
   font-size: 24px;
   font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .fifth-box-card .git-img {
   position: absolute;
   left: 30px;
   top: 90px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #free-course .container-mini-box a .fifth-box-card .flex-icon {
@@ -1336,6 +1454,21 @@ body {
   top: 105px;
   right: 30px;
   color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#free-course .container-mini-box a .fifth-box-card:hover span {
+  top: 5px;
+  left: 15px;
+}
+
+#free-course .container-mini-box a .fifth-box-card:hover .git-img {
+  left: 60px;
+}
+
+#free-course .container-mini-box a .fifth-box-card:hover .flex-icon {
+  top: 50px;
 }
 
 .box-end-page {
