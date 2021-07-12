@@ -740,6 +740,7 @@ body {
                         margin-right: 200px;
                         z-index: 1;
                         opacity: 0.7;
+                        transition: 0.3s;
                     }
 
                     .abs-item-two {
@@ -748,6 +749,7 @@ body {
                         margin-right: 85px;
                         z-index: 2;
                         opacity: 0.8;
+                        transition: 0.3s;
                     }
 
                     .container-right {
@@ -757,6 +759,7 @@ body {
                         height: 170px;
                         width: 250px;
                         border-radius: 15px;
+                        transition: 0.3s;
 
                         .text-box {
                             color: #33A9DC;
@@ -764,6 +767,7 @@ body {
                             font-weight: 700;
                             margin-top: 20px;
                             margin-left: 30px;
+                            transition: 0.3s;
                         }
 
                         .content-text {
@@ -773,21 +777,63 @@ body {
                             font-size: 12px;
                             color: rgba(0, 0, 0, 0.6);
                             z-index: 3;
+                            transition: 0.3s;
                         }
 
                         .flex-icon {
                             display: flex;
                             position: absolute;
-                            margin-left: 135px;
-                            margin-top: 80px;
-
-                            i {
-                                margin-top: 26px;
-                                margin-right: 7px;
-                            }
+                            left: 180px;
+                            top: 135px;
+                            transition: 0.3s;
                         }
                     }
                 }
+            }
+
+            .nst-two:hover .container-right {
+                background-color: #000;
+                box-shadow:
+                    0 0 7px #33a9dc,
+                    0 0 10px #2a90bd,
+                    0 0 21px #247ca3,
+                    0 0 42px #1b6382,
+                    0 0 82px #134a61,
+                    0 0 92px #0d3445,
+                    0 0 102px #082430,
+                    0 0 151px #000000; 
+            }
+
+            .nst-two:hover .container-right .text-box {
+                color: #33a9dc;
+                text-shadow:
+                    0 0 7px #33a9dc,
+                    0 0 10px #2a90bd,
+                    0 0 21px #247ca3,
+                    0 0 42px #1b6382,
+                    0 0 82px #134a61,
+                    0 0 92px #0d3445,
+                    0 0 102px #082430,
+                    0 0 151px #000000; 
+                margin-top: 5px;
+                margin-left: 10px;
+            }
+
+            .nst-two:hover .container-right .content-text {
+                color: #fff;
+                margin-left: -20px;
+            }
+
+            .nst-two:hover .sub-container .abs-item-one {
+                margin-left: 120px;
+            }
+
+            .nst-two:hover .abs-item-two {
+                margin-right: -25px;
+            }
+
+            .nst-two:hover .container-right .flex-icon {
+                top: 70px;
             }
 
             // nst-three
